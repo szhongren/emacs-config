@@ -1,0 +1,90 @@
+;; Object machine/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "machine/"
+  :tables (list 
+   (semanticdb-table "_default_types.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_MACHINE__DEFAULT_TYPES_H" variable (:constant-flag t) nil [117 142])
+            ("sys/features.h" include (:system-flag t) nil [144 169])
+            ("__EXP" variable (:constant-flag t) nil [401 406])
+            ("limits.h" include (:system-flag t) nil [412 431]))          
+    :file "_default_types.h"
+    :pointmax 5891
+    :fsize 5890
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((semantic-list 470 . 5843) (string 466 . 469) (EXTERN 459 . 465))
+    :lexical-table 
+        '(("___int32_t_defined" . ((number "1" 1590 . 1591)))
+          ("_MACHINE__DEFAULT_TYPES_H")
+          ("__EXP" (spp-arg-list ("x") 406 . 409) . ((symbol "x" 410 . 411)))
+          )
+
+    )
+   (semanticdb-table "_types.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_MACHINE__TYPES_H" variable (:constant-flag t) nil [102 119])
+            ("machine/_default_types.h" include (:system-flag t) nil [120 155]))          
+    :file "_types.h"
+    :pointmax 163
+    :fsize 162
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_MACHINE__TYPES_H")
+          )
+
+    )
+   (semanticdb-table "types.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_MACHTYPES_H_" variable (:constant-flag t) nil [31 44])
+            ("_CLOCK_T_" variable (:constant-flag t) nil [312 321])
+            ("_TIME_T_" variable (:constant-flag t) nil [359 367])
+            ("_CLOCKID_T_" variable (:constant-flag t) nil [396 407])
+            ("_TIMER_T_" variable (:constant-flag t) nil [431 440])
+            ("__off_t" type
+               (:typedef ("long int")
+                :superclasses "long int"
+                :type "typedef")
+                nil [482 507])
+            ("__pid_t" type
+               (:typedef ("int")
+                :superclasses "int"
+                :type "typedef")
+                nil [508 528])
+            ("__loff_t" variable (:type "long int") nil [572 590]))          
+    :file "types.h"
+    :pointmax 668
+    :fsize 667
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((LONG 567 . 571) (TYPEDEF 559 . 566) (symbol 545 . 558))
+    :lexical-table 
+        '(("_MACHTYPES_H_")
+          ("_CLOCK_T_" . ((UNSIGNED "unsigned" 322 . 330) (LONG "long" 331 . 335)))
+          ("_TIME_T_" . ((LONG "long" 368 . 372)))
+          ("_CLOCKID_T_" . ((UNSIGNED "unsigned" 409 . 417) (LONG "long" 418 . 422)))
+          ("_TIMER_T_" . ((UNSIGNED "unsigned" 444 . 452) (LONG "long" 453 . 457)))
+          )
+
+    )
+   (semanticdb-table "ieeefp.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("__IEEE_LITTLE_ENDIAN" variable (:constant-flag t) nil [7230 7250]))          
+    :file "ieeefp.h"
+    :pointmax 8506
+    :fsize 8505
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__IEEE_LITTLE_ENDIAN")
+          )
+
+    )
+   )
+  :file "!usr!include!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

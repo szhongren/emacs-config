@@ -1,0 +1,47 @@
+;; Object bits/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bits/"
+  :tables (list 
+   (semanticdb-table "wordsize.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_WORDSIZE_H" variable (:constant-flag t) nil [69 80])
+            ("__WORDSIZE" variable (:constant-flag t) nil [110 120])
+            ("__WORDSIZE_COMPAT32" variable (:constant-flag t) nil [137 156]))          
+    :file "wordsize.h"
+    :pointmax 225
+    :fsize 224
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__WORDSIZE_COMPAT32" . ((number "1" 160 . 161)))
+          ("__WORDSIZE" . ((number "64" 125 . 127)))
+          ("_WORDSIZE_H" . ((number "1" 81 . 82)))
+          )
+
+    )
+   (semanticdb-table "endian.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_BITS_ENDIAN_H_" variable (:constant-flag t) nil [257 272])
+            ("__BIG_ENDIAN" variable (:constant-flag t) nil [304 316])
+            ("__LITTLE_ENDIAN" variable (:constant-flag t) nil [362 377])
+            ("__BYTE_ORDER" variable (:constant-flag t) nil [421 433]))          
+    :file "endian.h"
+    :pointmax 487
+    :fsize 486
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__LITTLE_ENDIAN" . ((number "1234" 378 . 382)))
+          ("_BITS_ENDIAN_H_")
+          ("__BIG_ENDIAN" . ((number "4321" 317 . 321)))
+          ("__BYTE_ORDER" . ((symbol "__LITTLE_ENDIAN" 434 . 449)))
+          )
+
+    )
+   )
+  :file "!usr!include!bits!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

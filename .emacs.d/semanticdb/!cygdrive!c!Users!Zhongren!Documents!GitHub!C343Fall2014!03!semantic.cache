@@ -1,0 +1,16 @@
+;; Object 03/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "03/"
+  :tables (list 
+   (semanticdb-table "09.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "09.py"
+    :pointmax 1
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!Documents!GitHub!C343Fall2014!03!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

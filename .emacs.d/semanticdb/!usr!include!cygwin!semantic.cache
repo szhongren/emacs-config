@@ -1,0 +1,603 @@
+;; Object cygwin/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cygwin/"
+  :tables (list 
+   (semanticdb-table "types.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_CYGWIN_TYPES_H" variable (:constant-flag t) nil [340 355])
+            ("stdint.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [397 416])
+            ("endian.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [417 436])
+            ("bits/wordsize.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [437 463])
+            ("__timespec_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [502 522])
+            ("timespec_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "timespec"
+                :typedef ("timespec" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [523 558])
+            ("__timestruc_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [630 651])
+            ("timestruc_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "timespec"
+                :typedef ("timespec" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [652 688])
+            ("__off_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [755 770])
+            ("off_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "_off64_t"
+                :typedef ("_off64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [859 882])
+            ("loff_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__loff_t"
+                :typedef ("__loff_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [918 942])
+            ("__dev_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [976 991])
+            ("__dev16_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__int16_t"
+                :typedef ("__int16_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [992 1020])
+            ("dev_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint32_t"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1021 1046])
+            ("__blksize_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1111 1130])
+            ("blksize_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__int32_t"
+                :typedef ("__int32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1131 1159])
+            ("__blkcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1227 1245])
+            ("__blkcnt32_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__int32_t"
+                :typedef ("__int32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1246 1277])
+            ("blkcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__int64_t"
+                :typedef ("__int64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1278 1305])
+            ("__fsblkcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1374 1394])
+            ("fsblkcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned long"
+                :typedef ("unsigned long"))
+                (reparse-symbol extern-c-contents) [1448 1481])
+            ("__fsfilcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1554 1574])
+            ("fsfilcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned long"
+                :typedef ("unsigned long"))
+                (reparse-symbol extern-c-contents) [1628 1661])
+            ("__uid_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1729 1744])
+            ("__uid16_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned short"
+                :typedef ("unsigned short"))
+                (reparse-symbol extern-c-contents) [1745 1778])
+            ("uid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint32_t"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1779 1804])
+            ("__gid_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1865 1880])
+            ("__gid16_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned short"
+                :typedef ("unsigned short"))
+                (reparse-symbol extern-c-contents) [1881 1914])
+            ("gid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint32_t"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1915 1940])
+            ("__ino_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2001 2016])
+            ("ino_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint64_t"
+                :typedef ("__uint64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2073 2098])
+            ("__id_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2233 2247])
+            ("id_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint32_t"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2248 2272])
+            ("flock" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("l_type" variable (:type "short") (reparse-symbol classsubparts) [2712 2726])
+                    ("l_whence" variable (:type "short") (reparse-symbol classsubparts) [2763 2779])
+                    ("l_start" variable (:type ("off_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2818 2833])
+                    ("l_len" variable (:type ("off_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2867 2880])
+                    ("l_pid" variable (:type ("pid_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2927 2940]))                  )
+                (reparse-symbol extern-c-contents) [2696 2972])
+            ("__key_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3006 3021])
+            ("key_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "long long"
+                :typedef ("long long"))
+                (reparse-symbol extern-c-contents) [3022 3046])
+            ("__BIT_TYPES_DEFINED__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3113 3134])
+            ("__vm_offset_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3176 3197])
+            ("vm_offset_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned long"
+                :typedef ("unsigned long"))
+                (reparse-symbol extern-c-contents) [3198 3232])
+            ("__vm_size_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3303 3322])
+            ("vm_size_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned long"
+                :typedef ("unsigned long"))
+                (reparse-symbol extern-c-contents) [3323 3355])
+            ("__vm_object_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3426 3447])
+            ("vm_object_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "void"
+                :pointer 1
+                :typedef ("void"))
+                (reparse-symbol extern-c-contents) [3448 3474])
+            ("__u_int8_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3546 3564])
+            ("u_int8_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned char"
+                :typedef ("unsigned char"))
+                (reparse-symbol extern-c-contents) [3565 3596])
+            ("__u_int16_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3640 3659])
+            ("u_int16_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint16_t"
+                :typedef ("__uint16_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3660 3689])
+            ("__u_int32_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3733 3752])
+            ("u_int32_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint32_t"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3753 3782])
+            ("__u_int64_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3826 3845])
+            ("u_int64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__uint64_t"
+                :typedef ("__uint64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3846 3875])
+            ("__register_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3921 3941])
+            ("register_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__int32_t"
+                :typedef ("__int32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3942 3971])
+            ("__addr_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4013 4029])
+            ("addr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "char"
+                :pointer 1
+                :typedef ("char"))
+                (reparse-symbol extern-c-contents) [4030 4051])
+            ("__mode_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4093 4109])
+            ("mode_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "unsigned int"
+                :typedef ("unsigned int"))
+                (reparse-symbol extern-c-contents) [4110 4134])
+            ("pthread_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_t"
+                :pointer 1
+                :typedef ("__pthread_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4232 4286])
+            ("__pthread_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4260 4273]))                  )
+                (reparse-symbol extern-c-contents) [4232 4286])
+            ("pthread_mutex_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_mutex_t"
+                :pointer 1
+                :typedef ("__pthread_mutex_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4287 4353])
+            ("__pthread_mutex_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4321 4334]))                  )
+                (reparse-symbol extern-c-contents) [4287 4353])
+            ("pthread_key_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_key_t"
+                :pointer 1
+                :typedef ("__pthread_key_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4355 4417])
+            ("__pthread_key_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4387 4400]))                  )
+                (reparse-symbol extern-c-contents) [4355 4417])
+            ("pthread_attr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_attr_t"
+                :pointer 1
+                :typedef ("__pthread_attr_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4418 4482])
+            ("__pthread_attr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4451 4464]))                  )
+                (reparse-symbol extern-c-contents) [4418 4482])
+            ("pthread_mutexattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_mutexattr_t"
+                :pointer 1
+                :typedef ("__pthread_mutexattr_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4483 4557])
+            ("__pthread_mutexattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4521 4534]))                  )
+                (reparse-symbol extern-c-contents) [4483 4557])
+            ("pthread_condattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_condattr_t"
+                :pointer 1
+                :typedef ("__pthread_condattr_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4558 4630])
+            ("__pthread_condattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4595 4608]))                  )
+                (reparse-symbol extern-c-contents) [4558 4630])
+            ("pthread_cond_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_cond_t"
+                :pointer 1
+                :typedef ("__pthread_cond_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4631 4695])
+            ("__pthread_cond_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4664 4677]))                  )
+                (reparse-symbol extern-c-contents) [4631 4695])
+            ("pthread_once_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("" type
+                     (:members 
+                        ( ("mutex" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4781 4803])
+                          ("state" variable (:type "int") (reparse-symbol classsubparts) [4806 4816]))                        
+                      :type "struct")
+                      nil nil))
+                (reparse-symbol extern-c-contents) [4762 4834])
+            ("pthread_spinlock_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_spinlock_t"
+                :pointer 1
+                :typedef ("__pthread_spinlock_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4835 4907])
+            ("__pthread_spinlock_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4872 4885]))                  )
+                (reparse-symbol extern-c-contents) [4835 4907])
+            ("pthread_rwlock_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_rwlock_t"
+                :pointer 1
+                :typedef ("__pthread_rwlock_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4908 4976])
+            ("__pthread_rwlock_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [4943 4956]))                  )
+                (reparse-symbol extern-c-contents) [4908 4976])
+            ("pthread_rwlockattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__pthread_rwlockattr_t"
+                :pointer 1
+                :typedef ("__pthread_rwlockattr_t" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4977 5053])
+            ("__pthread_rwlockattr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__dummy" variable (:type "char") (reparse-symbol classsubparts) [5016 5029]))                  )
+                (reparse-symbol extern-c-contents) [4977 5053])
+            ("sys/sysmacros.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [5729 5755]))          
+    :file "types.h"
+    :pointmax 5815
+    :fsize 5814
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__timespec_t_defined")
+          ("__fsblkcnt_t_defined")
+          ("__vm_size_t_defined")
+          ("__vm_object_t_defined")
+          ("__BIT_TYPES_DEFINED__" . ((number "1" 3135 . 3136)))
+          ("__off_t_defined")
+          ("__gid_t_defined")
+          ("__mode_t_defined")
+          ("__uid_t_defined")
+          ("__u_int16_t_defined")
+          ("__u_int64_t_defined")
+          ("__dev_t_defined")
+          ("__fsfilcnt_t_defined")
+          ("__ino_t_defined")
+          ("__vm_offset_t_defined")
+          ("__register_t_defined")
+          ("_CYGWIN_TYPES_H")
+          ("__key_t_defined")
+          ("__addr_t_defined")
+          ("__blkcnt_t_defined")
+          ("__u_int8_t_defined")
+          ("__blksize_t_defined")
+          ("__u_int32_t_defined")
+          ("__timestruc_t_defined")
+          ("__id_t_defined")
+          )
+
+    )
+   (semanticdb-table "config.h"
+    :major-mode 'c-mode
+    :tags 
+        '( ("_CYGWIN_CONFIG_H" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [563 579])
+            ("__DYNAMIC_REENT__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [589 606])
+            ("__SYMBOL_PREFIX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2093 2108])
+            ("_SYMSTR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2159 2166])
+            ("__FILENAME_MAX__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2198 2214])
+            ("_READ_WRITE_RETURN_TYPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2455 2478])
+            ("_READ_WRITE_BUFSIZE_TYPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2496 2520])
+            ("__LARGE64_FILES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2536 2551])
+            ("__USE_INTERNAL_STAT64" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2562 2583])
+            ("__LINUX_ERRNO_EXTENSIONS__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2594 2620])
+            ("_MB_EXTENDED_CHARSETS_ALL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2631 2656])
+            ("__HAVE_LOCALE_INFO__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2667 2687])
+            ("__HAVE_LOCALE_INFO_EXTENDED__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2698 2727])
+            ("_WANT_C99_TIME_FORMATS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2738 2760])
+            ("_GLIBC_EXTENSION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2771 2787])
+            ("_STDIO_BSD_SEMANTICS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2798 2818])
+            ("__TM_GMTOFF" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2829 2840])
+            ("__TM_ZONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2859 2868])
+            ("__EXPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3011 3019])
+            ("__IMPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3028 3036])
+            ("DEFAULT_LOCALE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3135 3149]))          
+    :file "config.h"
+    :pointmax 3219
+    :fsize 3218
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__TM_GMTOFF" . ((symbol "tm_gmtoff" 2841 . 2850)))
+          ("DEFAULT_LOCALE" . ((string "\"C.UTF-8\"" 3150 . 3159)))
+          ("__FILENAME_MAX__" . ((number "4096" 2215 . 2219)))
+          ("_READ_WRITE_BUFSIZE_TYPE" . ((symbol "size_t" 2521 . 2527)))
+          ("_READ_WRITE_RETURN_TYPE" . ((symbol "_ssize_t" 2479 . 2487)))
+          ("_WANT_C99_TIME_FORMATS" . ((number "1" 2761 . 2762)))
+          ("__TM_ZONE" . ((symbol "tm_zone" 2871 . 2878)))
+          ("__DYNAMIC_REENT__")
+          ("_SYMSTR" (spp-arg-list ("x") 2166 . 2169) . 
+              ((symbol "__SYMBOL_PREFIX" 2170 . 2185) (punctuation "#" 2186 . 2187) (symbol "x" 2187 . 2188)))
+          ("__HAVE_LOCALE_INFO_EXTENDED__" . ((number "1" 2728 . 2729)))
+          ("_CYGWIN_CONFIG_H")
+          ("__EXPORT")
+          ("__LARGE64_FILES" . ((number "1" 2552 . 2553)))
+          ("_GLIBC_EXTENSION" . ((number "1" 2788 . 2789)))
+          ("_STDIO_BSD_SEMANTICS" . ((number "1" 2819 . 2820)))
+          ("__SYMBOL_PREFIX")
+          ("_MB_EXTENDED_CHARSETS_ALL" . ((number "1" 2657 . 2658)))
+          ("__IMPORT" . ((symbol "__declspec" 3037 . 3047) (semantic-list "(dllimport)" 3047 . 3058)))
+          ("__LINUX_ERRNO_EXTENSIONS__" . ((number "1" 2621 . 2622)))
+          ("__USE_INTERNAL_STAT64" . ((number "1" 2584 . 2585)))
+          ("__HAVE_LOCALE_INFO__" . ((number "1" 2688 . 2689)))
+          )
+
+    )
+   )
+  :file "!usr!include!cygwin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

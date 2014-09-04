@@ -1,0 +1,45 @@
+;; Object python/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python/"
+  :tables (list 
+   (semanticdb-table "ex11.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("print" code nil nil [1 26])
+            ("age" variable nil nil [27 44])
+            ("print" code nil nil [45 71])
+            ("height" variable nil nil [72 92])
+            ("print" code nil nil [93 124])
+            ("weight" variable nil nil [125 145])
+            ("print" code nil nil [147 224]))          
+    :file "ex11.py"
+    :pointmax 225
+    :fsize 224
+    :lastmodtime '(21511 29984 305945 100000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex12.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("age" variable nil nil [1 37])
+            ("height" variable nil nil [38 78])
+            ("weight" variable nil nil [79 124])
+            ("print" code nil nil [126 203]))          
+    :file "ex12.py"
+    :pointmax 204
+    :fsize 203
+    :lastmodtime '(21511 30099 913002 700000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex13.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "ex13.py"
+    :pointmax 1
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!Documents!GitHub!learn!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

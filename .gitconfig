@@ -1,0 +1,10 @@
+[user]
+	name = Zhongren Shao
+	email = shaoz@indiana.edu
+[core]
+	symlinks = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true

@@ -60,6 +60,15 @@
 ;; elpy
 (elpy-enable)
 
+;; latex and math
+(require 'ac-math)
+(add-to-list 'ac-modes 'latex-mode)   ; make auto-complete aware of `latex-mode`
+(defun ac-latex-mode-setup ()         ; add ac-sources to default ac-sources
+  (setq ac-sources
+     (append '(ac-source-math-unicode ac-source-math-latex ac-source-latex-commands)
+               ac-sources)))
+(add-hook 'latex-mode-hook 'ac-latex-mode-setup)
+
 ;; theme
 (require 'noctilux-theme)
 
@@ -71,7 +80,8 @@
  '(ac-auto-show-menu 0.6)
  '(ac-auto-start 1)
  '(column-number-mode 1)
- '(elpy-rpc-backend nil))
+ '(elpy-rpc-backend nil)
+ '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

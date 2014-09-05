@@ -33,10 +33,55 @@
     )
    (semanticdb-table "ex13.py"
     :major-mode 'python-mode
-    :tags nil
+    :tags 
+        '( ("sys" include nil nil [1 21])
+            ("script, first, second, third" code nil nil [23 58])
+            ("print" code nil nil [60 98])
+            ("print" code nil nil [99 138])
+            ("print" code nil nil [139 180])
+            ("print" code nil nil [181 220]))          
     :file "ex13.py"
-    :pointmax 1
+    :pointmax 222
+    :fsize 221
+    :lastmodtime '(21511 30326 984362 100000)
     :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex14.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("sys" include nil nil [1 21])
+            ("script, user_name" code nil nil [23 47])
+            ("prompt" variable nil nil [48 61])
+            ("print" code nil nil [63 118])
+            ("print" code nil nil [119 163])
+            ("print" code nil nil [164 202])
+            ("likes" variable nil nil [203 228])
+            ("print" code nil nil [230 271])
+            ("lives" variable nil nil [272 297])
+            ("print" code nil nil [299 341])
+            ("computer" variable nil nil [342 370])
+            ("print" code nil nil [372 527]))          
+    :file "ex14.py"
+    :pointmax 529
+    :fsize 528
+    :lastmodtime '(21511 60715 531224 700000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("print" code nil nil [1 21])
+            ("print" code nil nil [22 42])
+            ("print" code nil nil [43 70])
+            ("print" code nil nil [71 91])
+            ("print" code nil nil [92 114])
+            ("print" code nil nil [115 149])
+            ("print" code nil nil [150 185]))          
+    :file "ex1.py"
+    :pointmax 188
+    :fsize 187
+    :lastmodtime '(21511 60718 638795 0)
+    :unmatched-syntax '(($EOI 188 . 188))
     )
    )
   :file "!cygdrive!c!Users!Zhongren!Documents!GitHub!learn!python!semantic.cache"

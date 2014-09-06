@@ -1,0 +1,18 @@
+;; Object hw1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "hw1/"
+  :tables (list 
+   (semanticdb-table "hw.txt"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "hw.txt"
+    :pointmax 4496
+    :fsize 4377
+    :lastmodtime '(21513 12567 903257 900000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!C343Fall2014!hw1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

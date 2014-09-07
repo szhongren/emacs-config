@@ -81,7 +81,9 @@
  '(ac-auto-start 1)
  '(column-number-mode 1)
  '(elpy-rpc-backend nil)
- '(show-paren-mode t))
+ '(indent-tabs-mode nil)
+ '(show-paren-mode t)
+ '(standard-indent 3))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

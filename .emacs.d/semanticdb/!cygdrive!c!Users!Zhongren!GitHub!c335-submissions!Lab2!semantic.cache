@@ -2,7 +2,7 @@
 ;; SEMANTICDB Tags save file
 (semanticdb-project-database-file "Lab2/"
   :tables (list 
-     (semanticdb-table "mywc.c"
+   (semanticdb-table "mywc.c"
     :major-mode 'c-mode
     :tags 
         '( ("stdio.h" include (:system-flag t) nil [219 237])
@@ -61,80 +61,7 @@
           )
 
     )
-   (semanticdb-table "myprint.c"
-    :major-mode 'c-mode
-    :tags 
-        '( ("stdarg.h" include (:system-flag t) nil [222 241])
-            ("stdio.h" include (:system-flag t) nil [242 260])
-            ("I_TO_C" variable (:constant-flag t) nil [340 346])
-            ("HEX_START" variable (:constant-flag t) nil [387 396])
-            ("HEX_START" variable (:constant-flag t) nil [387 396])
-            ("HEX_DIG" variable (:constant-flag t) nil [416 423])
-            ("printint" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [459 465]))                  
-                :type "void")
-                nil [445 466])
-            ("printstring" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("str" variable
-                       (:pointer 1
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [484 494]))                  
-                :type "void")
-                nil [467 495])
-            ("printhex" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("h" variable (:type "int") (reparse-symbol arg-sub-list) [510 516]))                  
-                :type "void")
-                nil [496 517])
-            ("myprintf" function
-               (:arguments 
-                  ( ("fmt" variable
-                       (:pointer 1
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [581 591])
-                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [592 596]))                  
-                :type "void")
-                nil [561 1177])
-            ("neg" function
-               (:arguments 
-                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [1370 1376]))                  
-                :type "int")
-                nil [1362 1444])
-            ("printint" function
-               (:arguments 
-                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [1500 1506]))                  
-                :type "void")
-                nil [1486 1849])
-            ("printstring" function
-               (:arguments 
-                  ( ("str" variable
-                       (:pointer 1
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [1895 1905]))                  
-                :type "void")
-                nil [1878 1960])
-            ("printhex" function
-               (:arguments 
-                  ( ("h" variable (:type "int") (reparse-symbol arg-sub-list) [2020 2026]))                  
-                :type "void")
-                nil [2006 2394]))          
-    :file "myprint.c"
-    :pointmax 2395
-    :fsize 2394
-    :lastmodtime '(21514 21006 192138 500000)
-    :unmatched-syntax 'nil
-    :lexical-table 
-        '(("DEC_TART" . ((number "1000000000" 367 . 377)))
-          ("HEX_START" . ((number "4294967296" 396 . 406)))
-          )
-
-    )
-   (semanticdb-table "test.c"
+    (semanticdb-table "test.c"
     :major-mode 'c-mode
     :tags 
         '( ("myprintf" function
@@ -144,15 +71,15 @@
                   ( ("" variable
                        (:pointer 1
                         :type "char")
-                        (reparse-symbol arg-sub-list) [247 254])
-                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [255 259]))                  
+                        (reparse-symbol arg-sub-list) [246 253])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [254 258]))                  
                 :type "void")
-                nil [220 260])
-            ("main" function (:type "int") nil [428 647]))          
+                nil [219 259])
+            ("main" function (:type "int") nil [427 646]))          
     :file "test.c"
-    :pointmax 648
-    :fsize 647
-    :lastmodtime '(21514 21727 764153 500000)
+    :pointmax 647
+    :fsize 646
+    :lastmodtime '(21514 21755 24780 300000)
     :unmatched-syntax 'nil
     )
    )

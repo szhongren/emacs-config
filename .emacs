@@ -81,7 +81,6 @@
  '(ac-auto-start 1)
  '(column-number-mode 1)
  '(elpy-rpc-backend nil)
- '(indent-tabs-mode nil)
  '(show-paren-mode t)
  '(standard-indent 3))
 (custom-set-faces

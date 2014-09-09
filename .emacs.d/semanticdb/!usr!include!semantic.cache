@@ -2101,6 +2101,1435 @@
           )
 
     )
+   (semanticdb-table "errno.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__ERRNO_H__" variable (:constant-flag t) nil [29 40])
+            ("error_t" type
+               (:typedef ("int")
+                :superclasses "int"
+                :type "typedef")
+                nil [68 88])
+            ("__error_t_defined" variable (:constant-flag t) nil [97 114])
+            ("sys/errno.h" include (:system-flag t) nil [125 147]))          
+    :file "errno.h"
+    :pointmax 175
+    :fsize 174
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__error_t_defined" . ((number "1" 115 . 116)))
+          ("__ERRNO_H__")
+          )
+
+    )
+   (semanticdb-table "stdlib.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_STDLIB_H_" variable (:constant-flag t) nil [110 120])
+            ("machine/ieeefp.h" include (:system-flag t) nil [122 149])
+            ("_ansi.h" include nil nil [150 168])
+            ("__need_size_t" variable (:constant-flag t) nil [178 191])
+            ("__need_wchar_t" variable (:constant-flag t) nil [200 214])
+            ("__need_NULL" variable (:constant-flag t) nil [223 234])
+            ("stddef.h" include (:system-flag t) nil [235 254])
+            ("sys/reent.h" include (:system-flag t) nil [256 278])
+            ("machine/stdlib.h" include (:system-flag t) nil [279 306])
+            ("alloca.h" include (:system-flag t) nil [331 350])
+            ("cygwin/stdlib.h" include (:system-flag t) nil [377 403])
+            ("div_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("quot" variable (:type "int") (reparse-symbol classsubparts) [446 455])
+                          ("rem" variable (:type "int") (reparse-symbol classsubparts) [473 481]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [426 506])
+            ("ldiv_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("quot" variable (:type "long") (reparse-symbol classsubparts) [528 538])
+                          ("rem" variable (:type "long") (reparse-symbol classsubparts) [556 565]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [508 591])
+            ("lldiv_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("quot" variable (:type "long int") (reparse-symbol classsubparts) [769 783])
+                          ("rem" variable (:type "long int") (reparse-symbol classsubparts) [806 819]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [745 846])
+            ("__compar_fn_t_defined" variable (:constant-flag t) nil [893 914])
+            ("__compar_fn_t" variable
+               (:functionpointer-flag t
+                :type "int")
+                nil [923 969])
+            ("EXIT_FAILURE" variable (:constant-flag t) nil [986 998])
+            ("EXIT_SUCCESS" variable (:constant-flag t) nil [1009 1021])
+            ("RAND_MAX" variable (:constant-flag t) nil [1033 1041])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__locale_mb_cur_max" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1065 1085]))                  
+                :type "int")
+                nil [1054 1094])
+            ("MB_CUR_MAX" variable (:constant-flag t) nil [1104 1114])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("abort" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1151 1157])
+                    ("" variable (:type ("_ATTRIBUTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1165 1192]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [1138 1194])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("abs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1206 1210]))                  
+                :type "int")
+                nil [1195 1217])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atexit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1229 1236]))                  
+                :type "int")
+                nil [1218 1262])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atof" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1277 1282]))                  
+                :type "double")
+                nil [1263 1304])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atoff" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1342 1348]))                  
+                :type "float")
+                nil [1329 1370])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atoi" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1389 1394]))                  
+                :type "int")
+                nil [1378 1416])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_atoi_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1428 1436]))                  
+                :type "int")
+                nil [1417 1475])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atol" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1488 1493]))                  
+                :type "long")
+                nil [1476 1515])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_atol_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1528 1536]))                  
+                :type "long")
+                nil [1516 1575])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bsearch" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1588 1596]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [1576 1725])
+            ("_EXFUN_NOTHROW" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("calloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1746 1753]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [1726 1786])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("div" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1800 1804]))                  
+                :type ("div_t" type (:type "class") nil nil))
+                nil [1787 1832])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("exit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1846 1851])
+                    ("" variable (:type ("_ATTRIBUTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1866 1893]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [1833 1895])
+            ("_EXFUN_NOTHROW" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("free" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1917 1922]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [1896 1930])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("getenv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1946 1953]))                  
+                :type "char")
+                nil [1931 1977])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_getenv_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1992 2002]))                  
+                :type "char")
+                nil [1978 2043])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_findenv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2058 2067]))                  
+                :type "char")
+                nil [2044 2091])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_findenv_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2106 2117]))                  
+                :type "char")
+                nil [2092 2158])
+            ("suboptarg" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [2183 2206])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("getsubopt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2257 2267]))                  
+                :type "int")
+                nil [2246 2303])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("labs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2323 2328]))                  
+                :type "long")
+                nil [2311 2336])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ldiv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2351 2356]))                  
+                :type ("ldiv_t" type (:type "class") nil nil))
+                nil [2337 2386])
+            ("_EXFUN_NOTHROW" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("malloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2407 2414]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [2387 2431])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mblen" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2443 2449]))                  
+                :type "int")
+                nil [2432 2473])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mblen_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2485 2494]))                  
+                :type "int")
+                nil [2474 2549])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mbtowc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2561 2568]))                  
+                :type "int")
+                nil [2550 2623])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mbtowc_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2635 2645]))                  
+                :type "int")
+                nil [2624 2731])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wctomb" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2743 2750]))                  
+                :type "int")
+                nil [2732 2769])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_wctomb_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2781 2791]))                  
+                :type "int")
+                nil [2770 2841])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mbstowcs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2856 2865]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [2842 2920])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mbstowcs_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2935 2947]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [2921 3033])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("wcstombs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3048 3057]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [3034 3112])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_wcstombs_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3127 3139]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [3113 3225])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("mkdtemp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3284 3292]))                  
+                :type "char")
+                nil [3270 3302])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mkostemp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3314 3323]))                  
+                :type "int")
+                nil [3303 3338])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mkostemps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3350 3360]))                  
+                :type "int")
+                nil [3339 3380])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mkstemp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3392 3400]))                  
+                :type "int")
+                nil [3381 3410])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mkstemps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3422 3431]))                  
+                :type "int")
+                nil [3411 3446])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("mktemp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3461 3468])
+                    ("" variable (:type ("_ATTRIBUTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3477 3563]))                  
+                :type "char")
+                nil [3447 3565])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_mkdtemp_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3587 3598]))                  
+                :type "char")
+                nil [3573 3626])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mkostemp_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3638 3650]))                  
+                :type "int")
+                nil [3627 3683])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mkostemps_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3695 3708]))                  
+                :type "int")
+                nil [3684 3746])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mkstemp_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3758 3769]))                  
+                :type "int")
+                nil [3747 3797])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mkstemps_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3809 3821]))                  
+                :type "int")
+                nil [3798 3854])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_mktemp_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3869 3879])
+                    ("" variable (:type ("_ATTRIBUTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3906 3992]))                  
+                :type "char")
+                nil [3855 3994])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("qsort" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4015 4021]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [4002 4090])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("rand" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4102 4107]))                  
+                :type "int")
+                nil [4091 4116])
+            ("_EXFUN_NOTHROW" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("realloc" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4137 4145]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [4117 4172])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("reallocf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4209 4218]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [4197 4245])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("realpath" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4260 4269]))                  
+                :type "char")
+                nil [4246 4333])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("srand" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4354 4360]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [4341 4379])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtod" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4394 4401]))                  
+                :type "double")
+                nil [4380 4460])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_strtod_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4475 4485]))                  
+                :type "double")
+                nil [4461 4560])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtof" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4665 4672]))                  
+                :type "float")
+                nil [4652 4731])
+            ("strtodf" variable (:constant-flag t) nil [4864 4871])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtol" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4906 4913]))                  
+                :type "long")
+                nil [4894 4984])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_strtol_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4997 5007]))                  
+                :type "long")
+                nil [4985 5094])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtoul" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5116 5124]))                  
+                :type "unsigned long")
+                nil [5095 5195])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_strtoul_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5217 5228]))                  
+                :type "unsigned long")
+                nil [5196 5315])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("system" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5328 5335]))                  
+                :type "int")
+                nil [5317 5359])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("a64l" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5400 5405]))                  
+                :type "long")
+                nil [5385 5428])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("l64a" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5444 5449]))                  
+                :type "char")
+                nil [5429 5465])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_l64a_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5481 5489]))                  
+                :type "char")
+                nil [5466 5521])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("on_exit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5533 5541]))                  
+                :type "int")
+                nil [5522 5582])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_Exit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5596 5602])
+                    ("" variable (:type ("_ATTRIBUTE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5617 5644]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [5583 5646])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("putenv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5658 5665]))                  
+                :type "int")
+                nil [5647 5683])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_putenv_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5695 5705]))                  
+                :type "int")
+                nil [5684 5740])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_reallocf_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5753 5765]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [5741 5798])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("setenv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5810 5817]))                  
+                :type "int")
+                nil [5799 5879])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_setenv_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5891 5901]))                  
+                :type "int")
+                nil [5880 5980])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("gcvt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5996 6001]))                  
+                :type "char")
+                nil [5982 6022])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("gcvtf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6037 6043]))                  
+                :type "char")
+                nil [6023 6063])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("fcvt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6078 6083]))                  
+                :type "char")
+                nil [6064 6109])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("fcvtf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6124 6130]))                  
+                :type "char")
+                nil [6110 6155])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("ecvt" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6170 6175]))                  
+                :type "char")
+                nil [6156 6201])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("ecvtbuf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6216 6224]))                  
+                :type "char")
+                nil [6202 6259])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("fcvtbuf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6274 6282]))                  
+                :type "char")
+                nil [6260 6317])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("ecvtf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6332 6338]))                  
+                :type "char")
+                nil [6318 6363])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("dtoa" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6378 6383]))                  
+                :type "char")
+                nil [6364 6424])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("rand_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6436 6443]))                  
+                :type "int")
+                nil [6425 6463])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("drand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6479 6487]))                  
+                :type "double")
+                nil [6465 6496])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_drand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6511 6522]))                  
+                :type "double")
+                nil [6497 6541])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("erand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6556 6564]))                  
+                :type "double")
+                nil [6542 6586])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_erand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6601 6612]))                  
+                :type "double")
+                nil [6587 6651])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("jrand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6666 6674]))                  
+                :type "long")
+                nil [6652 6696])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_jrand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6711 6722]))                  
+                :type "long")
+                nil [6697 6761])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lcong48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6776 6784]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [6762 6806])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_lcong48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6821 6832]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [6807 6871])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lrand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6886 6894]))                  
+                :type "long")
+                nil [6872 6903])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_lrand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6918 6929]))                  
+                :type "long")
+                nil [6904 6948])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mrand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6963 6971]))                  
+                :type "long")
+                nil [6949 6980])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_mrand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6995 7006]))                  
+                :type "long")
+                nil [6981 7025])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("nrand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7040 7048]))                  
+                :type "long")
+                nil [7026 7070])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_nrand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7085 7096]))                  
+                :type "long")
+                nil [7071 7135])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("seed48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7167 7174]))                  
+                :type "unsigned short")
+                nil [7136 7196])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_seed48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7228 7238]))                  
+                :type "unsigned short")
+                nil [7197 7277])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("srand48" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7292 7300]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [7278 7308])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_srand48_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7323 7334]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [7309 7359])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("atoll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7377 7383]))                  
+                :type "long long")
+                nil [7360 7405])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_atoll_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7423 7432]))                  
+                :type "long long")
+                nil [7406 7471])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("llabs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7489 7495]))                  
+                :type "long long")
+                nil [7472 7508])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lldiv" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7524 7530]))                  
+                :type ("lldiv_t" type (:type "class") nil nil))
+                nil [7509 7570])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtoll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7710 7718]))                  
+                :type "long long")
+                nil [7693 7789])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_strtoll_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7838 7849]))                  
+                :type "long long")
+                nil [7821 7937])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtoull" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8086 8095]))                  
+                :type "unsigned long long")
+                nil [8060 8166])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_strtoull_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8224 8236]))                  
+                :type "unsigned long long")
+                nil [8198 8324])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_dtoa_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8616 8624]))                  
+                :type "char")
+                nil [8602 8682])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("_system_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9015 9025]))                  
+                :type "int")
+                nil [9004 9058])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__eprintf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9073 9083]))                  
+                :type ("_VOID" type (:type "class") nil nil))
+                nil [9060 9141]))          
+    :file "stdlib.h"
+    :pointmax 9459
+    :fsize 9458
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((symbol 9423 . 9433) (semantic-list 9083 . 9139) (semantic-list 9025 . 9056) (semantic-list 8624 . 8680) (semantic-list 8236 . 8322) (semantic-list 8095 . 8164) (semantic-list 7849 . 7935) (semantic-list 7718 . 7787) (semantic-list 7530 . 7568) (semantic-list 7495 . 7506) (semantic-list 7432 . 7469) (semantic-list 7383 . 7403) (semantic-list 7334 . 7357) (semantic-list 7300 . 7306) (semantic-list 7238 . 7275) (semantic-list 7174 . 7194) (semantic-list 7096 . 7133) (semantic-list 7048 . 7068) (semantic-list 7006 . 7023) (semantic-list 6971 . 6978) (semantic-list 6929 . 6946) (semantic-list 6894 . 6901) (semantic-list 6832 . 6869) (semantic-list 6784 . 6804) (semantic-list 6722 . 6759) (semantic-list 6674 . 6694) (semantic-list 6612 . 6649) (semantic-list 6564 . 6584) (semantic-list 6522 . 6539) (semantic-list 6487 . 6494) (semantic-list 6443 . 6461) (semantic-list 6383 . 6422) (semantic-list 6338 . 6361) (semantic-list 6282 . 6315) (semantic-list 6224 . 6257) (semantic-list 6175 . 6199) (semantic-list 6130 . 6153) (semantic-list 6083 . 6107) (semantic-list 6043 . 6061) (semantic-list 6001 . 6020) (semantic-list 5901 . 5978) (semantic-list 5817 . 5877) (semantic-list 5765 . 5796) (semantic-list 5705 . 5738) (semantic-list 5665 . 5681) (semantic-list 5628 . 5644) (semantic-list 5602 . 5616) (semantic-list 5541 . 5580) (semantic-list 5489 . 5519) (semantic-list 5449 . 5463) (semantic-list 5405 . 5426) (semantic-list 5335 . 5357) (semantic-list 5228 . 5313) (semantic-list 5124 . 5193) (semantic-list 5007 . 5092) (semantic-list 4913 . 4982) (semantic-list 4672 . 4729) (semantic-list 4485 . 4558) (semantic-list 4401 . 4458) (semantic-list 4360 . 4377) (semantic-list 4270 . 4331) (semantic-list 4218 . 4243) (semantic-list 4145 . 4170) (semantic-list 4107 . 4114) (semantic-list 4021 . 4088) (semantic-list 3917 . 3992) (semantic-list 3880 . 3905) (semantic-list 3822 . 3852) (semantic-list 3770 . 3795) (semantic-list 3709 . 3744) (semantic-list 3651 . 3681) (semantic-list 3599 . 3624) (semantic-list 3488 . 3563) (semantic-list 3468 . 3476) (semantic-list 3431 . 3444) (semantic-list 3400 . 3408) (semantic-list 3360 . 3378) (semantic-list 3323 . 3336) (semantic-list 3292 . 3300) (semantic-list 3139 . 3223) (semantic-list 3057 . 3110) (semantic-list 2947 . 3031) (semantic-list 2865 . 2918) (semantic-list 2791 . 2839) (semantic-list 2750 . 2767) (semantic-list 2645 . 2729) (semantic-list 2568 . 2621) (semantic-list 2494 . 2547) (semantic-list 2449 . 2471) (semantic-list 2414 . 2429) (semantic-list 2356 . 2384) (semantic-list 2328 . 2334) (semantic-list 2267 . 2301) (semantic-list 2117 . 2156) (semantic-list 2067 . 2089) (semantic-list 2002 . 2041) (semantic-list 1953 . 1975) (semantic-list 1922 . 1928) (semantic-list 1877 . 1893) (semantic-list 1851 . 1865) (semantic-list 1804 . 1830) (semantic-list 1753 . 1784) (semantic-list 1596 . 1723) (semantic-list 1536 . 1573) (semantic-list 1493 . 1513) (semantic-list 1436 . 1473) (semantic-list 1394 . 1414) (semantic-list 1348 . 1368) (semantic-list 1282 . 1302) (semantic-list 1236 . 1260) (semantic-list 1210 . 1215) (semantic-list 1176 . 1192) (semantic-list 1157 . 1164) (semantic-list 1085 . 1092) (TYPEDEF 915 . 922) (LONG 801 . 805) (LONG 764 . 768) (semantic-list 696 . 744) (punctuation 690 . 691) (punctuation 689 . 690) (semantic-list 630 . 688) (symbol 412 . 424))
+    :lexical-table 
+        '(("__compar_fn_t_defined")
+          ("RAND_MAX" . ((symbol "__RAND_MAX" 1042 . 1052)))
+          ("strtodf" . ((symbol "strtof" 4872 . 4878)))
+          ("__need_size_t")
+          ("__need_wchar_t")
+          ("_STDLIB_H_")
+          ("__need_NULL")
+          ("MB_CUR_MAX" . ((symbol "__locale_mb_cur_max" 1115 . 1134) (semantic-list "()" 1134 . 1136)))
+          ("EXIT_FAILURE" . ((number "1" 999 . 1000)))
+          ("EXIT_SUCCESS" . ((number "0" 1022 . 1023)))
+          )
+
+    )
+   (semanticdb-table "string.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_STRING_H_" variable (:constant-flag t) nil [99 109])
+            ("_ansi.h" include nil nil [111 129])
+            ("sys/reent.h" include (:system-flag t) nil [130 152])
+            ("sys/cdefs.h" include (:system-flag t) nil [153 175])
+            ("sys/features.h" include (:system-flag t) nil [176 201])
+            ("__need_size_t" variable (:constant-flag t) nil [211 224])
+            ("__need_NULL" variable (:constant-flag t) nil [233 244])
+            ("stddef.h" include (:system-flag t) nil [245 264])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memchr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [294 301]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [280 328])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memcmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [342 349]))                  
+                :type "int")
+                nil [329 383])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memcpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [398 405]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [384 455])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memmove" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [469 477]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [456 505])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memset" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [519 526]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [506 547])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strcat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [562 569]))                  
+                :type "char")
+                nil [548 613])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strchr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [628 635]))                  
+                :type "char")
+                nil [614 656])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strcmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [669 676]))                  
+                :type "int")
+                nil [657 706])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strcoll" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [719 727]))                  
+                :type "int")
+                nil [707 757])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strcpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [772 779]))                  
+                :type "char")
+                nil [758 823])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strcspn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [839 847]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [824 877])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strerror" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [892 901]))                  
+                :type "char")
+                nil [878 908])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strlen" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [924 931]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [909 947])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strncat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [962 970]))                  
+                :type "char")
+                nil [948 1022])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strncmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1035 1043]))                  
+                :type "int")
+                nil [1023 1081])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strncpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1096 1104]))                  
+                :type "char")
+                nil [1082 1156])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strpbrk" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1171 1179]))                  
+                :type "char")
+                nil [1157 1209])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strrchr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1224 1232]))                  
+                :type "char")
+                nil [1210 1253])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strspn" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1269 1276]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1254 1306])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strstr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1321 1328]))                  
+                :type "char")
+                nil [1307 1358])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strtok" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1394 1401]))                  
+                :type "char")
+                nil [1380 1445])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strxfrm" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1469 1477]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1454 1529])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strtok_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1569 1578]))                  
+                :type "char")
+                nil [1555 1641])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bcmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1655 1660]))                  
+                :type "int")
+                nil [1643 1698])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bcopy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1712 1718]))                  
+                :type "void")
+                nil [1699 1750])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("bzero" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1764 1770]))                  
+                :type "void")
+                nil [1751 1788])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ffs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1801 1805]))                  
+                :type "int")
+                nil [1789 1812])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("index" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1827 1833]))                  
+                :type "char")
+                nil [1813 1854])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memccpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1868 1876]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [1855 1931])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mempcpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1945 1953]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [1932 1981])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memmem" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1995 2002]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [1982 2045])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("memrchr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2060 2068]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [2046 2095])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("rawmemchr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2110 2120]))                  
+                :type ("_PTR" type (:type "class") nil nil))
+                nil [2096 2139])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("rindex" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2154 2161]))                  
+                :type "char")
+                nil [2140 2182])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("stpcpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2197 2204]))                  
+                :type "char")
+                nil [2183 2248])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("stpncpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2263 2271]))                  
+                :type "char")
+                nil [2249 2323])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strcasecmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2336 2347]))                  
+                :type "int")
+                nil [2324 2377])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strcasestr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2391 2402]))                  
+                :type "char")
+                nil [2378 2432])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strchrnul" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2447 2457]))                  
+                :type "char")
+                nil [2433 2478])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strdup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2560 2567]))                  
+                :type "char")
+                nil [2546 2583])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_strdup_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2629 2639]))                  
+                :type "char")
+                nil [2615 2672])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strndup" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2754 2762]))                  
+                :type "char")
+                nil [2740 2786])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_strndup_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2832 2843]))                  
+                :type "char")
+                nil [2818 2884])
+            ("__asm__" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("__ASMNAME" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3307 3337]))                  
+                :type "int")
+                nil [3298 3339])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strlcat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3472 3480]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [3457 3512])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strlcpy" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3528 3536]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [3513 3568])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strncasecmp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3581 3593]))                  
+                :type "int")
+                nil [3569 3631])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strnlen" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3647 3655]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [3632 3679])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strsep" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3694 3701]))                  
+                :type "char")
+                nil [3680 3726])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strlwr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3740 3747]))                  
+                :type "char")
+                nil [3727 3757])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strupr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3771 3778]))                  
+                :type "char")
+                nil [3758 3788])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("strsignal" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3871 3881]))                  
+                :type "char")
+                nil [3857 3897])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strtosigno" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3938 3949]))                  
+                :type "int")
+                nil [3923 3972])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("_strerror_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4033 4045]))                  
+                :type "char")
+                nil [4019 4082])
+            ("strcmpi" variable (:constant-flag t) nil [4729 4736])
+            ("stricmp" variable (:constant-flag t) nil [4779 4786])
+            ("strncmpi" variable (:constant-flag t) nil [4830 4838])
+            ("strnicmp" variable (:constant-flag t) nil [4883 4891])
+            ("sys/string.h" include (:system-flag t) nil [4944 4967]))          
+    :file "string.h"
+    :pointmax 5005
+    :fsize 5004
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((symbol 4969 . 4979) (semantic-list 4046 . 4080) (semantic-list 3950 . 3970) (semantic-list 3882 . 3895) (semantic-list 3778 . 3786) (semantic-list 3747 . 3755) (semantic-list 3701 . 3724) (semantic-list 3655 . 3677) (semantic-list 3593 . 3629) (semantic-list 3536 . 3566) (semantic-list 3480 . 3510) (semantic-list 3317 . 3337) (semantic-list 3263 . 3297) (symbol 3257 . 3263) (semantic-list 3275 . 3296) (INT 3248 . 3251) (semantic-list 3275 . 3296) (semantic-list 2843 . 2882) (semantic-list 2762 . 2784) (semantic-list 2639 . 2670) (semantic-list 2567 . 2581) (semantic-list 2457 . 2476) (semantic-list 2402 . 2430) (semantic-list 2347 . 2375) (semantic-list 2271 . 2321) (semantic-list 2204 . 2246) (semantic-list 2161 . 2180) (semantic-list 2120 . 2137) (semantic-list 2068 . 2093) (semantic-list 2003 . 2043) (semantic-list 1953 . 1979) (semantic-list 1876 . 1929) (semantic-list 1833 . 1852) (semantic-list 1805 . 1810) (semantic-list 1770 . 1786) (semantic-list 1718 . 1748) (semantic-list 1660 . 1696) (semantic-list 1578 . 1639) (semantic-list 1477 . 1527) (semantic-list 1401 . 1443) (semantic-list 1328 . 1356) (semantic-list 1276 . 1304) (semantic-list 1232 . 1251) (semantic-list 1179 . 1207) (semantic-list 1104 . 1154) (semantic-list 1043 . 1079) (semantic-list 970 . 1020) (semantic-list 931 . 945) (semantic-list 901 . 906) (semantic-list 847 . 875) (semantic-list 779 . 821) (semantic-list 727 . 755) (semantic-list 676 . 704) (semantic-list 635 . 654) (semantic-list 569 . 611) (semantic-list 526 . 545) (semantic-list 477 . 503) (semantic-list 405 . 453) (semantic-list 349 . 381) (semantic-list 301 . 326) (symbol 266 . 278))
+    :lexical-table 
+        '(("_STRING_H_")
+          ("strnicmp" . ((symbol "strncasecmp" 4892 . 4903)))
+          ("strcmpi" . ((symbol "strcasecmp" 4737 . 4747)))
+          ("__need_size_t")
+          ("strncmpi" . ((symbol "strncasecmp" 4839 . 4850)))
+          ("__need_NULL")
+          ("stricmp" . ((symbol "strcasecmp" 4787 . 4797)))
+          )
+
+    )
+   (semanticdb-table "time.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_TIME_H_" variable (:constant-flag t) nil [107 115])
+            ("_ansi.h" include nil nil [117 135])
+            ("sys/reent.h" include (:system-flag t) nil [136 158])
+            ("__need_size_t" variable (:constant-flag t) nil [168 181])
+            ("__need_NULL" variable (:constant-flag t) nil [190 201])
+            ("stddef.h" include (:system-flag t) nil [202 221])
+            ("machine/time.h" include (:system-flag t) nil [250 275])
+            ("_CLOCKS_PER_SEC_" variable (:constant-flag t) nil [310 326])
+            ("CLOCKS_PER_SEC" variable (:constant-flag t) nil [348 362])
+            ("CLK_TCK" variable (:constant-flag t) nil [388 395])
+            ("sys/types.h" include (:system-flag t) nil [412 434])
+            ("tm" type
+               (:members 
+                  ( ("tm_sec" variable (:type "int") (reparse-symbol classsubparts) [464 475])
+                    ("tm_min" variable (:type "int") (reparse-symbol classsubparts) [478 489])
+                    ("tm_hour" variable (:type "int") (reparse-symbol classsubparts) [492 504])
+                    ("tm_mday" variable (:type "int") (reparse-symbol classsubparts) [507 519])
+                    ("tm_mon" variable (:type "int") (reparse-symbol classsubparts) [522 533])
+                    ("tm_year" variable (:type "int") (reparse-symbol classsubparts) [536 548])
+                    ("tm_wday" variable (:type "int") (reparse-symbol classsubparts) [551 563])
+                    ("tm_yday" variable (:type "int") (reparse-symbol classsubparts) [566 578])
+                    ("tm_isdst" variable (:type "int") (reparse-symbol classsubparts) [581 594]))                  
+                :type "struct")
+                nil [450 692])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("clock" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [712 718]))                  
+                :type ("clock_t" type (:type "class") nil nil))
+                nil [694 730])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("difftime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [748 757]))                  
+                :type "double")
+                nil [731 790])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("mktime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [808 815]))                  
+                :type ("time_t" type (:type "class") nil nil))
+                nil [791 841])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("time" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [859 864]))                  
+                :type ("time_t" type (:type "class") nil nil))
+                nil [842 887])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("asctime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [923 931]))                  
+                :type "char")
+                nil [908 961])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("ctime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [977 983]))                  
+                :type "char")
+                nil [962 1010])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("gmtime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1029 1036]))                  
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1011 1063])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("localtime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1082 1092]))                  
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1064 1116])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("strftime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1141 1150]))                  
+                :type ("size_t" type (:type "class") nil nil))
+                nil [1124 1268])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("asctime_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1285 1295]))                  
+                :type "char")
+                nil [1270 1350])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("ctime_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1366 1374]))                  
+                :type "char")
+                nil [1351 1401])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("gmtime_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1420 1429]))                  
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1402 1486])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable (:type ("localtime_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1505 1517]))                  
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1487 1574])
+            ("_EXFUN" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable (:type ("strptime" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1670 1679]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1652 1767])
+            ("_EXFUN" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("_VOID" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("tzset" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1786 1792]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1768 1802])
+            ("_EXFUN" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("_VOID" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("_tzset_r" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1821 1830]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1803 1850])
+            ("__tzrule_type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__tzrule_struct"
+                :typedef ("__tzrule_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [1852 2011])
+            ("__tzrule_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("ch" variable (:type "char") (reparse-symbol classsubparts) [1887 1895])
+                    ("m" variable (:type "int") (reparse-symbol classsubparts) [1898 1904])
+                    ("n" variable (:type "int") (reparse-symbol classsubparts) [1907 1913])
+                    ("d" variable (:type "int") (reparse-symbol classsubparts) [1916 1922])
+                    ("s" variable (:type "int") (reparse-symbol classsubparts) [1925 1931])
+                    ("change" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1934 1948])
+                    ("offset" variable (:type "long") (reparse-symbol classsubparts) [1951 1963]))                  )
+                (reparse-symbol extern-c-contents) [1852 2011])
+            ("__tzinfo_type" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :superclasses "__tzinfo_struct"
+                :typedef ("__tzinfo_struct" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [2013 2124])
+            ("__tzinfo_struct" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("__tznorth" variable (:type "int") (reparse-symbol classsubparts) [2048 2062])
+                    ("__tzyear" variable (:type "int") (reparse-symbol classsubparts) [2065 2078])
+                    ("__tzrule" variable
+                       (:dereference 1
+                        :type ("__tzrule_type" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [2081 2107]))                  )
+                (reparse-symbol extern-c-contents) [2013 2124])
+            ("_EXFUN" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("__tzinfo_type" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("__gettzinfo" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2149 2161]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2126 2171])
+            ("_timezone" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long")
+                (reparse-symbol extern-c-contents) [3137 3152])
+            ("_daylight" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [3169 3183])
+            ("_tzname" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :dereference 1
+                :pointer 1)
+                (reparse-symbol extern-c-contents) [3200 3217])
+            ("tzname" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3306 3312])
+            ("sys/features.h" include (:system-flag t) nil [3388 3413])
+            ("cygwin/time.h" include (:system-flag t) nil [3433 3457])
+            ("CLOCK_ENABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5010 5023])
+            ("CLOCK_DISABLED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5089 5103])
+            ("CLOCK_ALLOWED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5202 5215])
+            ("CLOCK_DISALLOWED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5406 5422])
+            ("CLOCK_REALTIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5654 5668])
+            ("TIMER_ABSTIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5787 5800]))          
+    :file "time.h"
+    :pointmax 7204
+    :fsize 7203
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((symbol 3191 . 3199) (EXTERN 3184 . 3190) (symbol 3160 . 3168) (EXTERN 3153 . 3159) (symbol 3128 . 3136) (EXTERN 3121 . 3127) (semantic-list 2162 . 2169) (semantic-list 1831 . 1848) (semantic-list 1793 . 1800) (semantic-list 1684 . 1765) (symbol 1576 . 1586) (semantic-list 1518 . 1572) (semantic-list 1430 . 1484) (semantic-list 1375 . 1399) (semantic-list 1296 . 1348) (semantic-list 1151 . 1266) (semantic-list 1092 . 1114) (semantic-list 1039 . 1061) (semantic-list 987 . 1008) (semantic-list 933 . 959) (semantic-list 869 . 885) (semantic-list 818 . 839) (semantic-list 758 . 788) (semantic-list 722 . 728) (symbol 436 . 448))
+    :lexical-table 
+        '(("tzname" . ((symbol "_tzname" 3313 . 3320)))
+          ("CLOCK_ENABLED" . ((number "1" 5025 . 5026)))
+          ("CLOCKS_PER_SEC" . ((symbol "_CLOCKS_PER_SEC_" 363 . 379)))
+          ("__need_size_t")
+          ("_CLOCKS_PER_SEC_" . ((number "1000" 327 . 331)))
+          ("CLOCK_DISABLED" . ((number "0" 5104 . 5105)))
+          ("CLOCK_ALLOWED" . ((number "1" 5219 . 5220)))
+          ("_TIME_H_")
+          ("TIMER_ABSTIME" . ((number "4" 5801 . 5802)))
+          ("CLK_TCK" . ((symbol "CLOCKS_PER_SEC" 396 . 410)))
+          ("__need_NULL")
+          ("CLOCK_REALTIME" . ((semantic-list "(clockid_t)" 5669 . 5680) (number "1" 5680 . 5681)))
+          ("CLOCK_DISALLOWED" . ((number "0" 5423 . 5424)))
+          )
+
+    )
+   (semanticdb-table "alloca.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_NEWLIB_ALLOCA_H" variable (:constant-flag t) nil [232 248])
+            ("_ansi.h" include nil nil [250 268])
+            ("sys/reent.h" include (:system-flag t) nil [269 291])
+            ("alloca" variable (:constant-flag t) nil [332 338]))          
+    :file "alloca.h"
+    :pointmax 421
+    :fsize 420
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("alloca" (spp-arg-list ("size") 338 . 344) . ((symbol "__builtin_alloca" 345 . 361) (semantic-list "(size)" 361 . 367)))
+          ("_NEWLIB_ALLOCA_H")
+          )
+
+    )
    )
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"

@@ -83,6 +83,45 @@
           )
 
     )
+   (semanticdb-table "stdlib.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_MACHSTDLIB_H_" variable (:constant-flag t) nil [266 280])
+            ("mkdtemp" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [336 343]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [321 344]))          
+    :file "stdlib.h"
+    :pointmax 403
+    :fsize 402
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_MACHSTDLIB_H_")
+          )
+
+    )
+   (semanticdb-table "time.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_MACHTIME_H_" variable (:constant-flag t) nil [30 42]))          
+    :file "time.h"
+    :pointmax 400
+    :fsize 399
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_MACHTIME_H_")
+          )
+
+    )
    )
   :file "!usr!include!machine!semantic.cache"
   :semantic-tag-version "2.0"

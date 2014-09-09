@@ -1,0 +1,426 @@
+;; Object ex19/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ex19/"
+  :tables (list 
+   (semanticdb-table "ex19.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_ex19_h" variable (:constant-flag t) nil [25 32])
+            ("object.h" include nil nil [34 53])
+            ("Monster" type
+               (:members 
+                  ( ("proto" variable (:type ("Object" type (:type "class") nil nil)) (reparse-symbol classsubparts) [297 310])
+                    ("hit_points" variable (:type "int") (reparse-symbol classsubparts) [315 330]))                  
+                :type "struct")
+                nil [276 333])
+            ("Monster" type
+               (:typedef ("Monster" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :superclasses "Monster"
+                :type "typedef")
+                nil [388 419])
+            ("Monster_attack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [499 510])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [511 522]))                  
+                :type "int")
+                nil [480 523])
+            ("Monster_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [541 552]))                  
+                :type "int")
+                nil [524 553])
+            ("Room" type
+               (:members 
+                  ( ("proto" variable (:type ("Object" type (:type "class") nil nil)) (reparse-symbol classsubparts) [655 668])
+                    ("bad_guy" variable
+                       (:pointer 1
+                        :type ("Monster" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [674 691])
+                    ("north" variable
+                       (:pointer 1
+                        :type ("Room" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [697 716])
+                    ("south" variable
+                       (:pointer 1
+                        :type ("Room" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [721 740])
+                    ("east" variable
+                       (:pointer 1
+                        :type ("Room" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [745 763])
+                    ("west" variable
+                       (:pointer 1
+                        :type ("Room" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [768 786]))                  
+                :type "struct")
+                nil [637 789])
+            ("Room" type
+               (:typedef ("Room" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :superclasses "Room"
+                :type "typedef")
+                nil [822 847])
+            ("Room_move" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [924 935])
+                    ("direction" variable (:type ("Direction" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [936 956]))                  
+                :type "void")
+                nil [908 957])
+            ("Room_attack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [974 985])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [986 997]))                  
+                :type "int")
+                nil [958 998])
+            ("Room_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1013 1024]))                  
+                :type "int")
+                nil [999 1025])
+            ("Map" type
+               (:members 
+                  ( ("proto" variable (:type ("Object" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1100 1113])
+                    ("start" variable
+                       (:pointer 1
+                        :type ("Room" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1118 1130])
+                    ("location" variable
+                       (:pointer 1
+                        :type ("Room" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1135 1150]))                  
+                :type "struct")
+                nil [1083 1153])
+            ("Map" type
+               (:typedef ("Map" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :superclasses "Map"
+                :type "typedef")
+                nil [1168 1191])
+            ("Map_move" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1266 1277])
+                    ("direction" variable (:type ("Direction" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1278 1298]))                  
+                :type "void")
+                nil [1251 1299])
+            ("Map_attack" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1315 1326])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [1327 1338]))                  
+                :type "int")
+                nil [1300 1339])
+            ("Map_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1353 1364]))                  
+                :type "int")
+                nil [1340 1365]))          
+    :file "ex19.h"
+    :pointmax 1374
+    :fsize 849
+    :lastmodtime '(21516 50141 940280 300000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_ex19_h")
+          )
+
+    )
+   (semanticdb-table "object.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("object.h" include nil nil [60 79])
+            ("assert.h" include (:system-flag t) nil [80 99])
+            ("Object_init" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [117 128]))                  
+                :type "int")
+                nil [101 262])
+            ("Object_describe" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [285 296]))                  
+                :type "void")
+                nil [264 443])
+            ("Object_destroy" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [465 476]))                  
+                :type "void")
+                nil [445 670])
+            ("Object_move" function
+               (:pointer 1
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [690 701])
+                    ("direction" variable (:type ("Direction" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [702 722]))                  
+                :type "void")
+                nil [672 907])
+            ("Object_attack" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [927 938])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [939 950]))                  
+                :type "int")
+                nil [909 1048])
+            ("Object_new" function
+               (:pointer 1
+                :arguments 
+                  ( ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1067 1079])
+                    ("proto" variable (:type ("Object" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1080 1093])
+                    ("description" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1094 1112]))                  
+                :type "void")
+                nil [1050 2030]))          
+    :file "object.c"
+    :pointmax 2030
+    :fsize 2101
+    :lastmodtime '(21516 62736 800165 500000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "object.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_object_h" variable (:constant-flag t) nil [134 143])
+            ("Direction" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("NORTH" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [164 170])
+                          ("SOUTH" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [171 177])
+                          ("EAST" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [178 183])
+                          ("WEST" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [184 190]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [145 201])
+            ("init" variable
+               (:functionpointer-flag t
+                :type "int")
+                nil [320 344])
+            ("describe" variable
+               (:functionpointer-flag t
+                :type "void")
+                nil [347 376])
+            ("destroy" variable
+               (:functionpointer-flag t
+                :type "void")
+                nil [379 407])
+            ("move" variable
+               (:functionpointer-flag t
+                :type "void")
+                nil [410 457])
+            ("attack" variable
+               (:functionpointer-flag t
+                :type "int")
+                nil [460 498])
+            ("Object" variable (:type "int") nil [501 508])
+            ("NEW" variable (:constant-flag t) nil [915 918])
+            ("_" variable (:constant-flag t) nil [1017 1018]))          
+    :file "object.h"
+    :pointmax 1038
+    :fsize 1071
+    :lastmodtime '(21516 62817 193271 400000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_" (spp-arg-list ("N") 980 . 983) . 
+              ((symbol "proto" 984 . 989) (punctuation "." 989 . 990) (symbol "N" 990 . 991)))
+          ("_object_h")
+          ("NEW" (spp-arg-list ("T" "N") 880 . 886) . ((symbol "Object_new" 887 . 897) (semantic-list "(sizeof(T), T##Proto, N)" 897 . 921)))
+          )
+
+    )
+   (semanticdb-table "ex19.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("errno.h" include (:system-flag t) nil [20 38])
+            ("stdlib.h" include (:system-flag t) nil [39 58])
+            ("string.h" include (:system-flag t) nil [59 78])
+            ("time.h" include (:system-flag t) nil [79 96])
+            ("ex19.h" include nil nil [97 114])
+            ("Monster_attack" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [167 178])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [179 190]))                  
+                :type "int")
+                nil [148 455])
+            ("Monster_init" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [474 485]))                  
+                :type "int")
+                nil [457 556])
+            ("MonsterProto" variable (:type ("Object" type (:type "class") nil nil)) nil [645 722])
+            ("Room_move" function
+               (:pointer 1
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [769 780])
+                    ("direction" variable (:type ("Direction" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [781 801]))                  
+                :type "void")
+                nil [753 1518])
+            ("Room_attack" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1575 1586])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [1587 1598]))                  
+                :type "int")
+                nil [1559 1861])
+            ("RoomProto" variable (:type ("Object" type (:type "class") nil nil)) nil [1863 1931])
+            ("Map_move" function
+               (:pointer 1
+                :arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1976 1987])
+                    ("direction" variable (:type ("Direction" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1988 2008]))                  
+                :type "void")
+                nil [1961 2272])
+            ("Map_attack" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2321 2332])
+                    ("damage" variable (:type "int") (reparse-symbol arg-sub-list) [2333 2344]))                  
+                :type "int")
+                nil [2306 2450])
+            ("Map_init" function
+               (:arguments 
+                  ( ("self" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2478 2489]))                  
+                :type "int")
+                nil [2465 3196])
+            ("MapProto" variable (:type ("Object" type (:type "class") nil nil)) nil [3198 3283])
+            ("process_input" function
+               (:arguments 
+                  ( ("game" variable
+                       (:pointer 1
+                        :type ("Map" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3303 3313]))                  
+                :type "int")
+                nil [3285 4086])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4098 4107])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4108 4121]))                  
+                :type "int")
+                nil [4089 4393]))          
+    :file "ex19.c"
+    :pointmax 4394
+    :fsize 4393
+    :lastmodtime '(21516 60812 870505 900000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("CFLAGS" variable (:default-value ("-Wall" "-g")) nil [1 17])
+            ("all" function (:arguments ("ex19")) nil [47 57])
+            ("ex19" function (:arguments ("object.o")) nil [250 265])
+            ("clean" function nil nil [266 285]))          
+    :file "Makefile"
+    :pointmax 285
+    :fsize 294
+    :lastmodtime '(21516 60710 787316 700000)
+    :unmatched-syntax '((shell-command 274 . 284) (bol 273 . 273) (shell-command 274 . 284) (bol 273 . 273) (symbol 281 . 285) (symbol 278 . 280) (symbol 275 . 277) (bol 273 . 273))
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!learn!c!ex19!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

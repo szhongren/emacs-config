@@ -1680,6 +1680,525 @@
           )
 
     )
+   (semanticdb-table "errno.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_SYS_ERRNO_H_" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [223 236])
+            ("sys/reent.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [238 260])
+            ("errno" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [290 295])
+            ("_PARAMS" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("__errno" type (:type "class") nil nil)
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [321 346])
+            ("_sys_errlist" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("_CONST" type (:type "class") nil nil)
+                :dereference 1)
+                (reparse-symbol extern-c-contents) [459 481])
+            ("_sys_nerr" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [498 512])
+            ("sys_errlist" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :dereference 1
+                :pointer 1)
+                (reparse-symbol extern-c-contents) [553 580])
+            ("sys_nerr" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [597 610])
+            ("program_invocation_name" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :pointer 1)
+                (reparse-symbol extern-c-contents) [627 657])
+            ("program_invocation_short_name" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :pointer 1)
+                (reparse-symbol extern-c-contents) [674 710])
+            ("__errno_r" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [727 736])
+            ("EPERM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [767 772])
+            ("ENOENT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [800 806])
+            ("ESRCH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [849 854])
+            ("EINTR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [888 893])
+            ("EIO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [935 938])
+            ("ENXIO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [966 971])
+            ("E2BIG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1015 1020])
+            ("ENOEXEC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1056 1063])
+            ("EBADF" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1098 1103])
+            ("ECHILD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1137 1143])
+            ("EAGAIN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1173 1179])
+            ("ENOMEM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1215 1221])
+            ("EACCES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1256 1262])
+            ("EFAULT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1298 1304])
+            ("EBUSY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1422 1427])
+            ("EEXIST" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1469 1475])
+            ("EXDEV" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1505 1510])
+            ("ENODEV" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1546 1552])
+            ("ENOTDIR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1585 1592])
+            ("EISDIR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1626 1632])
+            ("EINVAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1665 1671])
+            ("ENFILE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1706 1712])
+            ("EMFILE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1760 1766])
+            ("ENOTTY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1816 1822])
+            ("ETXTBSY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1863 1870])
+            ("EFBIG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1903 1908])
+            ("ENOSPC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1941 1947])
+            ("ESPIPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1989 1995])
+            ("EROFS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2026 2031])
+            ("EMLINK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2071 2077])
+            ("EPIPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2110 2115])
+            ("EDOM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2145 2149])
+            ("ERANGE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2215 2221])
+            ("ENOMSG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2256 2262])
+            ("EIDRM" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2307 2312])
+            ("EDEADLK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2763 2770])
+            ("ENOLCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2797 2803])
+            ("ENOSTR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3212 3218])
+            ("ENODATA" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3249 3256])
+            ("ETIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3300 3305])
+            ("ENOSR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3344 3349])
+            ("ENOLINK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3574 3581])
+            ("EPROTO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3792 3798])
+            ("EMULTIHOP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3831 3840])
+            ("EBADMSG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4038 4045])
+            ("EFTYPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4075 4081])
+            ("ENOSYS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4627 4633])
+            ("ENMFILE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4694 4701])
+            ("ENOTEMPTY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4745 4754])
+            ("ENAMETOOLONG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4792 4804])
+            ("ELOOP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4849 4854])
+            ("EOPNOTSUPP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4896 4906])
+            ("EPFNOSUPPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4958 4970])
+            ("ECONNRESET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5018 5028])
+            ("ENOBUFS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5073 5080])
+            ("EAFNOSUPPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5125 5137])
+            ("EPROTOTYPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5204 5214])
+            ("ENOTSOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5264 5272])
+            ("ENOPROTOOPT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5322 5333])
+            ("ECONNREFUSED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5477 5489])
+            ("EADDRINUSE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5527 5537])
+            ("ECONNABORTED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5580 5592])
+            ("ENETUNREACH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5644 5655])
+            ("ENETDOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5698 5706])
+            ("ETIMEDOUT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5762 5771])
+            ("EHOSTDOWN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5812 5821])
+            ("EHOSTUNREACH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5854 5866])
+            ("EINPROGRESS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5905 5916])
+            ("EALREADY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5967 5975])
+            ("EDESTADDRREQ" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6020 6032])
+            ("EMSGSIZE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6080 6088])
+            ("EPROTONOSUPPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6125 6140])
+            ("EADDRNOTAVAIL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6277 6290])
+            ("ENETRESET" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6331 6340])
+            ("EISCONN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6390 6397])
+            ("ENOTCONN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6445 6453])
+            ("ETOOMANYREFS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6497 6509])
+            ("EDQUOT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6603 6609])
+            ("ESTALE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6622 6628])
+            ("ENOTSUP" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6641 6648])
+            ("ENOSHARE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6797 6805])
+            ("ECASECLASH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6856 6866])
+            ("EILSEQ" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6929 6935])
+            ("EOVERFLOW" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6977 6986])
+            ("ECANCELED" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7043 7052])
+            ("ENOTRECOVERABLE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7090 7105])
+            ("EOWNERDEAD" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7146 7156])
+            ("EWOULDBLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7282 7293])
+            ("__ELASTERROR" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7338 7350]))          
+    :file "errno.h"
+    :pointmax 7452
+    :fsize 7451
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((symbol 665 . 673) (EXTERN 658 . 664) (symbol 618 . 626) (EXTERN 611 . 617) (symbol 588 . 596) (EXTERN 581 . 587) (symbol 538 . 546) (EXTERN 531 . 537) (symbol 489 . 497) (EXTERN 482 . 488) (punctuation 457 . 458) (CHAR 452 . 456) (symbol 445 . 451) (symbol 436 . 444) (EXTERN 429 . 435) (semantic-list 338 . 344) (punctuation 320 . 321) (INT 316 . 319) (EXTERN 309 . 315))
+    :lexical-table 
+        '(("ENOMEM" . ((number "12" 1222 . 1224)))
+          ("EINVAL" . ((number "22" 1672 . 1674)))
+          ("ENOSTR" . ((number "60" 3219 . 3221)))
+          ("ETIME" . ((number "62" 3306 . 3308)))
+          ("ECONNRESET" . ((number "104" 5029 . 5032)))
+          ("ENOBUFS" . ((number "105" 5081 . 5084)))
+          ("ETIMEDOUT" . ((number "116" 5772 . 5775)))
+          ("EINPROGRESS" . ((number "119" 5917 . 5920)))
+          ("EOWNERDEAD" . ((number "142" 7157 . 7160)))
+          ("ENOENT" . ((number "2" 807 . 808)))
+          ("ESRCH" . ((number "3" 855 . 856)))
+          ("EBADF" . ((number "9" 1104 . 1105)))
+          ("ECHILD" . ((number "10" 1144 . 1146)))
+          ("EAGAIN" . ((number "11" 1180 . 1182)))
+          ("ENOSR" . ((number "63" 3350 . 3352)))
+          ("ENETDOWN" . ((number "115" 5707 . 5710)))
+          ("EHOSTUNREACH" . ((number "118" 5867 . 5870)))
+          ("EILSEQ" . ((number "138" 6936 . 6939)))
+          ("ENODATA" . ((number "61" 3257 . 3259)))
+          ("EBADMSG" . ((number "77" 4046 . 4048)))
+          ("ENOPROTOOPT" . ((number "109" 5334 . 5337)))
+          ("EADDRINUSE" . ((number "112" 5538 . 5541)))
+          ("_SYS_ERRNO_H_")
+          ("EINTR" . ((number "4" 894 . 895)))
+          ("ENOTDIR" . ((number "20" 1593 . 1595)))
+          ("EISDIR" . ((number "21" 1633 . 1635)))
+          ("ENOTTY" . ((number "25" 1823 . 1825)))
+          ("ENOSYS" . ((number "88" 4634 . 4636)))
+          ("EDQUOT" . ((number "132" 6610 . 6613)))
+          ("ESTALE" . ((number "133" 6629 . 6632)))
+          ("ENOTSUP" . ((number "134" 6649 . 6652)))
+          ("EOVERFLOW" . ((number "139" 6987 . 6990)))
+          ("EXDEV" . ((number "18" 1511 . 1513)))
+          ("EMFILE" . ((number "24" 1767 . 1769)))
+          ("EFBIG" . ((number "27" 1909 . 1911)))
+          ("EAFNOSUPPORT" . ((number "106" 5138 . 5141)))
+          ("ENOTSOCK" . ((number "108" 5273 . 5276)))
+          ("EHOSTDOWN" . ((number "117" 5822 . 5825)))
+          ("EALREADY" . ((number "120" 5976 . 5979)))
+          ("ENETRESET" . ((number "126" 6341 . 6344)))
+          ("ESPIPE" . ((number "29" 1996 . 1998)))
+          ("EPIPE" . ((number "32" 2116 . 2118)))
+          ("ERANGE" . ((number "34" 2222 . 2224)))
+          ("ENAMETOOLONG" . ((number "91" 4805 . 4807)))
+          ("EOPNOTSUPP" . ((number "95" 4907 . 4909)))
+          ("ENODEV" . ((number "19" 1553 . 1555)))
+          ("EROFS" . ((number "30" 2032 . 2034)))
+          ("EIDRM" . ((number "36" 2313 . 2315)))
+          ("ENOTEMPTY" . ((number "90" 4755 . 4757)))
+          ("ENFILE" . ((number "23" 1713 . 1715)))
+          ("EDOM" . ((number "33" 2150 . 2152)))
+          ("EADDRNOTAVAIL" . ((number "125" 6291 . 6294)))
+          ("ENOSHARE" . ((number "136" 6806 . 6809)))
+          ("EACCES" . ((number "13" 1263 . 1265)))
+          ("EEXIST" . ((number "17" 1476 . 1478)))
+          ("EDESTADDRREQ" . ((number "121" 6033 . 6036)))
+          ("__errno_r" (spp-arg-list ("ptr") 736 . 741) . ((semantic-list "((ptr)->_errno)" 742 . 757)))
+          ("EPERM" . ((number "1" 773 . 774)))
+          ("EIO" . ((number "5" 939 . 940)))
+          ("EMLINK" . ((number "31" 2078 . 2080)))
+          ("EDEADLK" . ((number "45" 2771 . 2773)))
+          ("ENOLCK" . ((number "46" 2804 . 2806)))
+          ("ENOLINK" . ((number "67" 3582 . 3584)))
+          ("EPROTO" . ((number "71" 3799 . 3801)))
+          ("ECONNREFUSED" . ((number "111" 5490 . 5493)))
+          ("EMSGSIZE" . ((number "122" 6089 . 6092)))
+          ("ENOTRECOVERABLE" . ((number "141" 7106 . 7109)))
+          ("__ELASTERROR" . ((number "2000" 7351 . 7355)))
+          ("ENXIO" . ((number "6" 972 . 973)))
+          ("E2BIG" . ((number "7" 1021 . 1022)))
+          ("EFAULT" . ((number "14" 1305 . 1307)))
+          ("ENOMSG" . ((number "35" 2263 . 2265)))
+          ("EFTYPE" . ((number "79" 4082 . 4084)))
+          ("EPFNOSUPPORT" . ((number "96" 4971 . 4973)))
+          ("ECANCELED" . ((number "140" 7053 . 7056)))
+          ("ENOEXEC" . ((number "8" 1064 . 1065)))
+          ("EBUSY" . ((number "16" 1428 . 1430)))
+          ("ENMFILE" . ((number "89" 4702 . 4704)))
+          ("ELOOP" . ((number "92" 4855 . 4857)))
+          ("ECONNABORTED" . ((number "113" 5593 . 5596)))
+          ("ENETUNREACH" . ((number "114" 5656 . 5659)))
+          ("EPROTONOSUPPORT" . ((number "123" 6141 . 6144)))
+          ("EISCONN" . ((number "127" 6398 . 6401)))
+          ("ENOTCONN" . ((number "128" 6454 . 6457)))
+          ("ETOOMANYREFS" . ((number "129" 6510 . 6513)))
+          ("ECASECLASH" . ((number "137" 6867 . 6870)))
+          ("EWOULDBLOCK" . ((symbol "EAGAIN" 7294 . 7300)))
+          ("errno" . ((semantic-list "(*__errno())" 296 . 308)))
+          ("ETXTBSY" . ((number "26" 1871 . 1873)))
+          ("ENOSPC" . ((number "28" 1948 . 1950)))
+          ("EMULTIHOP" . ((number "74" 3841 . 3843)))
+          ("EPROTOTYPE" . ((number "107" 5215 . 5218)))
+          )
+
+    )
+   (semanticdb-table "string.h"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "string.h"
+    :pointmax 117
+    :fsize 116
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    )
    )
   :file "!usr!include!sys!semantic.cache"
   :semantic-tag-version "2.0"

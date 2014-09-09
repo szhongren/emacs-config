@@ -1,98 +1,4 @@
 fg
-gcc -o cti -g ctoint.c
-./cti < haiku
-cat mywc.c
-fg
-gcc -o cti -g ctoint.c
-./cti < haiku
-fg
-gcc -g -o mywc mywc.c
-./mywc < haiku
-fg
-./mywc < haiku
-fg
-./mywc < haiku
-gcc -g -o mywc mywc.c
-./mywc < haiku
-fg
-fg
-gcc -g -o mywc mywc.c
-./mywc < haiku
-fg
-gcc -g -o mywc mywc.c
-./mywc < haiku
-./cti < haiku
-fg
-git status
-cd ..
-git status
-git add Lab2
-git status
-ls
-ls -a
-fg
-jobs
-fg
-jobs
-git status
-git add .
-git status
-git rm .
-git rm Lab2
-git rm Lab2 -R
-git rm Lab2 -r
-cd Lab
-cd Lab2
-ls
-git rm *.exe
-git rm -f *.exe
-git status
-ls
-git rm --cached .
-git rm -r --cached .
-ls
-git add mywc.c
-git add myprint.c
-git status
-git commit -m "halfway there"
-git commit origin master
-cd ..
-git commit origin master
-git commit .
-git push origin master
-emacs template.c
-cd Lab2
-ls
-jobs
-fg
-ls
-rm *~
-git status
-git commit -a -m "added comments"
-git push origin master
-fg
-ls
-fg
-gcc -o cti ctoint.c
-fg
-gcc -o cti ctoint.c
-.cti
-/.cti < haiku
-ls
-./cti < haiku
-ls
-fg
-gcc -o cti ctoint.c
-./cti < haiku
-fg
-gcc -o cti ctoint.c
-fg
-gcc -o cti ctoint.c
-./cti < haiku
-fg
-gcc -o cti ctoint.c
-./cti < haiku
-fg
 fg
 gcc -o cti ctoint.c
 fg
@@ -498,3 +404,97 @@ ls -al lib
 ls -al usr
 ls -al usr/include
 cat usr/include/limits.h
+cd $learn/c
+ls
+ls -l
+cat Makefile 
+make clearn
+make clean
+ls
+ls =l
+ls -l
+mkdir ex22
+mv ex22* ex22
+mv ex22.* ex22
+mv ex22.c ex22
+mv help
+mv --help
+mv ex22.c ex22/
+mv ex22.h ex22
+cd
+cd $learn/c
+ls
+ls -h
+ls -hl
+cd ex22
+ls
+cd ..
+emacs ex23.c
+cd ex22
+fg
+opera
+cd $c343
+ls
+cd hw1/
+ls
+cat hw
+cd $learn/c
+ls
+fg
+emacs
+cd
+ls
+ls -al
+emacs
+ls -al
+cd cd .emacs.d/
+ls
+cd .emacs.d/
+ls
+cd ..
+git status
+emacs .gitignore
+fg
+cat texput.log 
+rm texput.log 
+ls
+ls -al
+fg
+git add
+git add .
+git status
+emacs .gitignore
+git status
+git add .
+git status
+git rm --cached */
+git rm --cached -r */
+git status
+explorer.exe .
+git status
+git add .
+git status
+cat .gitignore
+git rm --cached -r test/
+git status
+git status
+git commit
+git push
+git status
+cat .gitignore
+notepad .gitignore
+git status
+git commit -a -m 
+git commit -a -m "this"
+git push
+mail
+apropos mail
+git status
+git log
+gitk
+gitk
+git remote
+git help remote
+man git
+git remote -v
+git status

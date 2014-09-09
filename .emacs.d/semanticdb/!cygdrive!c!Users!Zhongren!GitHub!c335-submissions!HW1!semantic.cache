@@ -1,0 +1,92 @@
+;; Object HW1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "HW1/"
+  :tables (list 
+   (semanticdb-table "remover.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [229 247])
+            ("stdlib.h" include (:system-flag t) nil [248 267])
+            ("remover" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("source" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [317 331])
+                    ("substring" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [332 349])
+                    ("result" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [350 364]))                  
+                :type "int")
+                nil [305 365])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [517 526])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [527 540]))                  
+                :type "int")
+                nil [508 962])
+            ("substr_chk" function
+               (:arguments 
+                  ( ("src" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1439 1450])
+                    ("sub" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1451 1462])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [1463 1469])
+                    ("flag" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1470 1480]))                  
+                :type "int")
+                nil [1424 1646])
+            ("remover" function
+               (:arguments 
+                  ( ("source" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1953 1967])
+                    ("substring" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1968 1985])
+                    ("result" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1986 2000]))                  
+                :type "int")
+                nil [1941 2366]))          
+    :file "remover.c"
+    :pointmax 2333
+    :fsize 2366
+    :lastmodtime '(21519 23231 255568 400000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "stdincap.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [231 249])
+            ("ctype.h" include (:system-flag t) nil [250 268])
+            ("main" function (:type "int") nil [374 531]))          
+    :file "stdincap.c"
+    :pointmax 509
+    :fsize 531
+    :lastmodtime '(21519 22708 109686 100000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!c335-submissions!HW1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

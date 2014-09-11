@@ -80,12 +80,151 @@
     :lastmodtime '(21517 8453 749684 400000)
     :unmatched-syntax 'nil
     )
-      (semanticdb-table "ex23.c"
+   (semanticdb-table "ex23.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("../dbg.h" include nil nil [40 59])
+            ("normal_copy" function
+               (:arguments 
+                  ( ("from" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [77 88])
+                    ("to" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [89 98])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [99 109]))                  
+                :type "int")
+                nil [61 197])
+            ("duffs_device" function
+               (:arguments 
+                  ( ("from" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [216 227])
+                    ("to" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [228 237])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [238 248]))                  
+                :type "int")
+                nil [199 697])
+            ("zeds_device" function
+               (:arguments 
+                  ( ("from" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [715 727])
+                    ("to" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [728 737])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [738 748]))                  
+                :type "int")
+                nil [699 1118])
+            ("valid_copy" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1135 1146])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [1147 1157])
+                    ("expects" variable (:type "char") (reparse-symbol arg-sub-list) [1158 1171]))                  
+                :type "int")
+                nil [1120 1342])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1353 1362])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1363 1376]))                  
+                :type "int")
+                nil [1344 2253]))          
+    :file "ex23.c"
+    :pointmax 2254
+    :fsize 2253
+    :lastmodtime '(21519 26012 349989 800000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex24.c"
     :major-mode 'c-mode
     :tags nil
-    :file "ex23.c"
+    :file "ex24.c"
     :pointmax 1
+    :fsize 1881
+    :lastmodtime '(21519 27264 464600 800000)
     :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("CFLAGS" variable (:default-value ("-Wall" "-g")) nil [1 17])
+            ("all" function nil nil [18 247])
+            ("clean" function nil nil [248 305]))          
+    :file "Makefile"
+    :pointmax 305
+    :fsize 304
+    :lastmodtime '(21519 27671 185957 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ex25.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("stdio.h" include (:system-flag t) nil [21 39])
+            ("stdarg.h" include (:system-flag t) nil [40 59])
+            ("dbg.h" include nil nil [60 76])
+            ("MAX_DATA" variable (:constant-flag t) nil [86 94])
+            ("read_string" function
+               (:arguments 
+                  ( ("out_string" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [116 134])
+                    ("max_buffer" variable (:type "int") (reparse-symbol arg-sub-list) [135 150]))                  
+                :type "int")
+                nil [100 416])
+            ("read_int" function
+               (:arguments 
+                  ( ("out_int" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [431 444]))                  
+                :type "int")
+                nil [418 659])
+            ("read_scan" function
+               (:arguments 
+                  ( ("fmt" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [681 691])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [692 696]))                  
+                :type "int")
+                nil [661 1646])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1657 1666])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1667 1680]))                  
+                :type "int")
+                nil [1648 2456]))          
+    :file "ex25.c"
+    :pointmax 2456
+    :fsize 2456
+    :lastmodtime '(21519 34928 910233 400000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("MAX_DATA" . ((number "100" 95 . 98)))
+          )
+
     )
    )
   :file "!cygdrive!c!Users!Zhongren!GitHub!learn!c!semantic.cache"

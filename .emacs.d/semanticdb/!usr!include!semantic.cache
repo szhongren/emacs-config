@@ -3530,6 +3530,299 @@
           )
 
     )
+   (semanticdb-table "unistd.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_UNISTD_H_" variable (:constant-flag t) nil [28 38])
+            ("sys/unistd.h" include (:system-flag t) nil [40 64]))          
+    :file "unistd.h"
+    :pointmax 90
+    :fsize 89
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("_UNISTD_H_")
+          )
+
+    )
+   (semanticdb-table "ctype.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_CTYPE_H_" variable (:constant-flag t) nil [27 36])
+            ("_ansi.h" include nil nil [38 56])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isalnum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [83 91]))                  
+                :type "int")
+                nil [72 103])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isalpha" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [115 123]))                  
+                :type "int")
+                nil [104 135])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("iscntrl" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [147 155]))                  
+                :type "int")
+                nil [136 167])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isdigit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [179 187]))                  
+                :type "int")
+                nil [168 199])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isgraph" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [211 219]))                  
+                :type "int")
+                nil [200 231])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("islower" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [243 251]))                  
+                :type "int")
+                nil [232 263])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isprint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [275 283]))                  
+                :type "int")
+                nil [264 295])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("ispunct" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [307 315]))                  
+                :type "int")
+                nil [296 327])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isspace" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [339 347]))                  
+                :type "int")
+                nil [328 359])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isupper" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [371 379]))                  
+                :type "int")
+                nil [360 391])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isxdigit" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [403 412]))                  
+                :type "int")
+                nil [392 423])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("tolower" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [435 443]))                  
+                :type "int")
+                nil [424 455])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("toupper" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [467 475]))                  
+                :type "int")
+                nil [456 487])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("isblank" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [585 593]))                  
+                :type "int")
+                nil [574 605])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :type "int")
+                nil [638 669])
+            ("_EXFUN" function
+               (:prototype-flag t
+                :type "int")
+                nil [670 701])
+            ("_tolower" variable (:constant-flag t) nil [710 718])
+            ("_toupper" variable (:constant-flag t) nil [767 775])
+            ("_U" variable (:constant-flag t) nil [832 834])
+            ("_L" variable (:constant-flag t) nil [846 848])
+            ("_N" variable (:constant-flag t) nil [860 862])
+            ("_S" variable (:constant-flag t) nil [874 876])
+            ("_P" variable (:constant-flag t) nil [889 891])
+            ("_C" variable (:constant-flag t) nil [904 906])
+            ("_X" variable (:constant-flag t) nil [919 921])
+            ("_B" variable (:constant-flag t) nil [935 937])
+            ("__ctype_ptr__" variable
+               (:pointer 1
+                :type "char")
+                nil [994 1014])
+            ("isascii" variable (:constant-flag t) nil [3622 3629])
+            ("toascii" variable (:constant-flag t) nil [3667 3674])
+            ("_ctype_" variable
+               (:dereference 1
+                :type "char")
+                nil [3768 3783]))          
+    :file "ctype.h"
+    :pointmax 3820
+    :fsize 3819
+    :lastmodtime '(21483 54108 0 0)
+    :unmatched-syntax '((symbol 3785 . 3795) (symbol 3761 . 3767) (symbol 3752 . 3760) (EXTERN 3745 . 3751) (symbol 985 . 993) (EXTERN 978 . 984) (symbol 964 . 970) (semantic-list 690 . 699) (semantic-list #("((__c)&0177)" 0 1 (macros (("__c")))) 681 . 689) (semantic-list 658 . 667) (semantic-list #("((unsigned)(__c)<=0177)" 0 1 (macros (("__c")))) 649 . 657) (semantic-list 594 . 603) (semantic-list 476 . 485) (semantic-list 444 . 453) (semantic-list 412 . 421) (semantic-list 380 . 389) (semantic-list 348 . 357) (semantic-list 316 . 325) (semantic-list 284 . 293) (semantic-list 252 . 261) (semantic-list 220 . 229) (semantic-list 188 . 197) (semantic-list 156 . 165) (semantic-list 124 . 133) (semantic-list 92 . 101) (symbol 58 . 70))
+    :lexical-table 
+        '(("_B" . ((number "0200" 938 . 942)))
+          ("_P" . ((number "020" 892 . 895)))
+          ("_C" . ((number "040" 907 . 910)))
+          ("_S" . ((number "010" 877 . 880)))
+          ("_U" . ((number "01" 835 . 837)))
+          ("_tolower" (spp-arg-list ("__c") 718 . 723) . ((semantic-list "((unsigned char)(__c) - 'A' + 'a')" 724 . 758)))
+          ("_X" . ((number "0100" 922 . 926)))
+          ("_CTYPE_H_")
+          ("_L" . ((number "02" 849 . 851)))
+          ("isascii" (spp-arg-list ("__c") 3629 . 3634) . ((semantic-list "((unsigned)(__c)<=0177)" 3635 . 3658)))
+          ("toascii" (spp-arg-list ("__c") 3674 . 3679) . ((semantic-list "((__c)&0177)" 3680 . 3692)))
+          ("_toupper" (spp-arg-list ("__c") 775 . 780) . ((semantic-list "((unsigned char)(__c) - 'a' + 'A')" 781 . 815)))
+          ("_N" . ((number "04" 863 . 865)))
+          )
+
+    )
+   (semanticdb-table "getopt.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__GETOPT_H__" variable (:constant-flag t) nil [1933 1945])
+            ("opterr" variable
+               (:type "int"
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2013 2053])
+            ("optind" variable
+               (:type "int"
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2095 2135])
+            ("optopt" variable
+               (:type "int"
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2172 2212])
+            ("optreset" variable
+               (:type "int"
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [2250 2292])
+            ("optarg" variable
+               (:type "char"
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1)
+                (reparse-symbol extern-c-contents) [2312 2354])
+            ("getopt" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2413 2417])
+                    ("" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2418 2433])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2440 2447]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2401 2448])
+            ("__GETOPT_LONG_H__" variable (:constant-flag t) nil [2566 2583])
+            ("option" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("name" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2648 2659])
+                    ("has_arg" variable (:type "int") (reparse-symbol classsubparts) [2661 2674])
+                    ("flag" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [2676 2686])
+                    ("val" variable (:type "int") (reparse-symbol classsubparts) [2688 2696]))                  )
+                (reparse-symbol extern-c-contents) [2625 2699])
+            ("getopt_long" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2718 2722])
+                    ("" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2723 2737])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2744 2751])
+                    ("" variable
+                       (:pointer 1
+                        :type ("option" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2758 2774])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2775 2781]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2701 2782])
+            ("getopt_long_only" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2805 2809])
+                    ("" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2810 2824])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2831 2838])
+                    ("" variable
+                       (:pointer 1
+                        :type ("option" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2845 2861])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2862 2868]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2783 2869])
+            ("HAVE_DECL_GETOPT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2904 2920])
+            ("no_argument" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2939 2950])
+            ("required_argument" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2973 2990])
+            ("optional_argument" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3007 3024]))          
+    :file "getopt.h"
+    :pointmax 3151
+    :fsize 3150
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("__GETOPT_LONG_H__")
+          ("HAVE_DECL_GETOPT" . ((number "1" 2921 . 2922)))
+          ("__GETOPT_H__")
+          ("required_argument" . ((number "1" 2997 . 2998)))
+          ("no_argument" . ((number "0" 2963 . 2964)))
+          ("optional_argument" . ((number "2" 3031 . 3032)))
+          )
+
+    )
    )
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"

@@ -1,0 +1,174 @@
+;; Object project2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "project2/"
+  :tables (list 
+   (semanticdb-table "utilities.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("subprocess" include nil nil [1 18])
+            ("TILE_SIZE" variable nil nil [47 67])
+            ("STEP_SIZE" variable nil nil [68 82])
+            ("colors" variable nil nil [83 144])
+            ("rgb" variable nil nil [145 338])
+            ("up" function (:arguments 
+              ( ("coord" variable nil (reparse-symbol function_parameters) [347 352]))              ) nil [340 399])
+            ("right" function (:arguments 
+              ( ("coord" variable nil (reparse-symbol function_parameters) [410 415]))              ) nil [400 462])
+            ("down" function (:arguments 
+              ( ("coord" variable nil (reparse-symbol function_parameters) [472 477]))              ) nil [463 524])
+            ("left" function (:arguments 
+              ( ("coord" variable nil (reparse-symbol function_parameters) [534 539]))              ) nil [525 586])
+            ("in_bounds" function (:arguments 
+              ( ("coord" variable nil (reparse-symbol function_parameters) [601 606])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [608 619]))              ) nil [587 735])
+            ("exec_command" function (:arguments 
+              ( ("str_command" variable nil (reparse-symbol function_parameters) [874 885]))              ) nil [857 1006])
+            ("dict_diff" function (:arguments 
+              ( ("d1" variable nil (reparse-symbol function_parameters) [1098 1100])
+                ("d2" variable nil (reparse-symbol function_parameters) [1102 1104]))              ) nil [1084 1379]))          
+    :file "utilities.py"
+    :pointmax 1379
+    :fsize 1378
+    :lastmodtime '(21508 7288 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "drought.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("random" include nil nil [1 14])
+            ("utilities" include nil nil [15 38])
+            ("create_drought" function (:arguments 
+              ( ("flooded_list" variable nil (reparse-symbol function_parameters) [203 215])
+                ("color_of_tile" variable nil (reparse-symbol function_parameters) [217 230]))              ) nil [184 618]))          
+    :file "drought.py"
+    :pointmax 618
+    :fsize 617
+    :lastmodtime '(21508 7288 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "flood.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("utilities" include nil nil [1 24])
+            ("flood" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [36 49])
+                ("flooded_list" variable nil (reparse-symbol function_parameters) [51 63])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [65 76]))              ) nil [26 88]))          
+    :file "flood.py"
+    :pointmax 88
+    :fsize 87
+    :lastmodtime '(21508 7377 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "floodit.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("pygame" include nil nil [1 14])
+            ("pygame" include nil nil [37 57])
+            ("random" include nil nil [58 71])
+            ("flood" include nil nil [73 96])
+            ("utilities" include nil nil [129 152])
+            ("drought" include nil nil [153 187])
+            ("sys" include nil nil [188 198])
+            ("time" include nil nil [199 210])
+            ("copy" include nil nil [211 222])
+            ("math" include nil nil [223 234])
+            ("csv" include nil nil [235 245])
+            ("btncol" variable nil nil [273 286])
+            ("screen" variable nil nil [287 300])
+            ("keycolors" variable nil nil [302 412])
+            ("mean" function (:arguments 
+              ( ("l" variable nil (reparse-symbol function_parameters) [423 424]))              ) nil [414 491])
+            ("button_rect" function (:arguments 
+              ( ("btn" variable nil (reparse-symbol function_parameters) [508 511]))              ) nil [492 593])
+            ("game_over" function (:arguments 
+              ( ("png_file" variable nil (reparse-symbol function_parameters) [608 616])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [618 629]))              ) nil [594 1188])
+            ("populate_with_random_colors" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [1221 1234]))              ) nil [1189 1417])
+            ("populate_with_wave_pattern" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [1449 1462]))              ) nil [1418 1805])
+            ("initialize" function (:arguments 
+              ( ("board_size" variable nil (reparse-symbol function_parameters) [1821 1831])
+                ("color_of_tile" variable nil (reparse-symbol function_parameters) [1833 1846])
+                ("flooded_list" variable nil (reparse-symbol function_parameters) [1848 1860])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [1862 1873]))              ) nil [1806 3476])
+            ("tests" variable nil nil [3578 3588])
+            ("test" variable nil nil [3589 3598])
+            ("board_size" variable nil nil [3662 3677])
+            ("max_moves" variable nil nil [3678 3692])
+            ("test_file" code nil nil [3693 3740])
+            ("drought_enabled" variable nil nil [3742 3764])
+            ("get_screen_size" function (:arguments 
+              ( ("bsize" variable nil (reparse-symbol function_parameters) [3786 3791]))              ) nil [3766 3870])
+            ("screen_size" variable nil nil [3871 3912])
+            ("step" function (:arguments 
+              ( ("screen_size" variable nil (reparse-symbol function_parameters) [4006 4017])
+                ("color_of_tile" variable nil (reparse-symbol function_parameters) [4019 4032])
+                ("flooded_list" variable nil (reparse-symbol function_parameters) [4034 4046])
+                ("color" variable nil (reparse-symbol function_parameters) [4048 4053])
+                ("show_graphics" variable nil (reparse-symbol function_parameters) [4055 4068])
+                ("gen_tests" variable nil (reparse-symbol function_parameters) [4076 4085])
+                ("times" variable nil (reparse-symbol function_parameters) [4093 4098]))              ) nil [3997 6441])
+            ("step" variable nil nil [6442 6460])
+            ("numpy" include nil nil [6462 6474])
+            ("run_batch" function (:arguments 
+              ( ("mode" variable nil (reparse-symbol function_parameters) [6663 6667]))              ) nil [6649 8628])
+            ("bsizes_moves_hash" variable nil nil [8732 8759])
+            ("for" code nil nil [8760 8848])
+            ("\"\"\"
+There are three functionalities(modes) provided here:
+
+1. interactive gaming mode:
+invoked by the command 'python floodit.py'
+In this mode, the user acts as a gamer, trying to flood the board within the alloted moves
+
+2. test mode:
+invoked by the command 'python floodit.py test'
+In this mode, the user is trying to test their code on the tests provided in various .txt files
+e.g. for a board of size 14, the test file is tests_14.txt
+This file contains board,color configurations that the tested code must match against
+
+3. time mode:
+invoked by the command 'python floodit.py time'
+This mode runs the game on the test file but instead of checking for correctness,
+it measures the execution time.
+
+4. Test generation mode:
+invoked by the command 'python floodit.py gentests'
+This mode is used to generate tests to be used as test cases to check student codes in batch mode
+\"\"\"" code nil nil [8935 9816])
+            ("if" code nil nil [9817 12220]))          
+    :file "floodit.py"
+    :pointmax 12386
+    :fsize 12739
+    :lastmodtime '(21508 7288 0 0)
+    :unmatched-syntax '((RETURN 431 . 437) (IF 459 . 461) (ELSE 473 . 477))
+    )
+   (semanticdb-table "plotter.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("csv" include nil nil [1 11])
+            ("matplotlib.pyplot" include nil nil [12 43])
+            ("math" include nil nil [44 55])
+            ("xvals" variable nil nil [57 67])
+            ("yvals" variable nil nil [68 78])
+            ("with" code nil nil [90 246])
+            ("yvals_old" variable nil nil [247 261])
+            ("with" code nil nil [262 389])
+            ("plt" code nil nil [407 427])
+            ("xpts" variable nil nil [448 497])
+            ("plt" code nil nil [543 572])
+            ("plt" code nil nil [573 606])
+            ("plt" code nil nil [607 617]))          
+    :file "plotter.py"
+    :pointmax 618
+    :fsize 617
+    :lastmodtime '(21520 39405 164976 600000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!C343Fall2014!project2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

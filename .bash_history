@@ -1,184 +1,3 @@
-fg
-fg
-gcc -o cti ctoint.c
-fg
-gcc -o cti ctoint.c
-./cti < haiku
-fg
-gcc -o cti ctoint.c
-./cti < haiku
-fg
-gcc -o cti ctoint.c
-gcc -g -o cti ctoint.c
-./cti < haiku
-ls
-cat ctr.exe.stackdump
-cat cti.exe.stackdump
-gdb cti
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.cfg
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-gcc -g -o cti ctoint.cfg
-fg
-gcc -g -o cti ctoint.cfg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-fg
-gcc -g -o cti ctoint.c
-fg
-gcc -g -o cti ctoint.c
-fg
-fg
-gcc -g -o cti ctoint.c
-./cti < haiku
-gcc -g -o cti ctoint.cfg
-fg
-gcc -g -o test test.c myprint.c 
-fg
-gcc -g -o test test.c myprint.c 
-./test
-git status
-cd ..
-rm Lab2/cti.exe.stackdump 
-git add Lab2/test.c
-explorer.exe 
-explorer.exe .
-ls
-git status
-git add lab2/test.c
-git add lab2/myprint.c 
-git status
-git commit -a -m "finished"
-git push origin master
-cd
-ls
-git status
-git add .bashrc
-cat .gitconfig
-git add .gitconfig
-git -a -m 
-git -a -m "added stuff"
-git commit -a -m "added stuff"
-git push origin master
-ssh438
-ping 8.8.8.8
-ping 8.8.8.8
-cd #c335
-cd $c335
-ls
-cd lab2
-ls
-git status
-cd ..
-git status
-cd lab2
-ls
-emacs report.txt
-jobs
-fg
-fg
-jobs
-fg
-git status
-cat main.c
-rm main.c
-ls
-ls *~
-rm *~
-ls
-rm prime.c 
-ls
-cd $learn
-git status
-git log
-time
-date
-git log -p -3
-cd ../
-ls
-git status
-cd c335-submissions/
-ls
-git status
-git log -p -2
-ls
-git rm --cached template_flymake.c 
-git status
-git commit -m "deleted flymake"
-git push
-git status
-cd Lab2
-git add report.txt 
-ls
-emaccs myprint.c
-emacs myprint.c
-gcc -g -o test test.c myprint.c 
-./test
-fg
-./test
-fg
-gcc -g -o test test.c myprint.c 
-./test
-git diff --cached
-git status
-git add myprint.c 
-git add test.c
-git status
-git diff --cached
-fg
-gcc -g -o test test.c myprint.c 
-./test
-git status
-git add test.c
-fg
-cat test.c
-emacs test.c
 cat myprintf.x
 cat myprintf.c
 git mv myprint.c myprintf.c
@@ -498,3 +317,184 @@ git help remote
 man git
 git remote -v
 git status
+cd $c335
+ls
+cd HW1/
+ls
+git status
+cd ..
+emacs .gitignore
+git status
+git commit -a -m "added gitignore"
+cd HW1/
+ls
+fg
+gcc -o remover remover.c
+./remover
+fg
+gcc -o remover remover.c
+./remover
+gcc -o remover remover.c
+fg
+gcc -o remover remover.c
+./remover
+fg
+gcc -o remover remover.c
+./remover
+./ remover fdsa
+./remover dfsa
+./remover dfsa dafgfa dafadf
+./remover dfsa df
+fg
+git status
+git commit -am "cleanup"
+git push
+git remote show origin
+cd
+git status
+git add .
+git status
+git commit -m "semantic update"
+git push
+git tag
+git graph
+git -graph
+git help
+git help -a
+git diff -graph
+git help diff
+git diff-tree
+git shell
+git log --graph
+g
+fg
+cat .bashrc
+ssh438
+ssh438
+ssh438
+cd $learn
+explorer.exe .
+git status
+git add .
+cat .gitignore
+fg
+fg
+git status
+git rm --cached .
+git rm --cached -r ~.
+git rm --cached -r .
+git add .
+git status
+git commit
+git push
+git remote show
+git branch -v
+fg
+ls
+cd c
+ls
+gcc -o ex24 ex24.c
+fg
+fg
+gcc -o ex24 ex24.c
+./ex24
+fg
+ssh438
+fg
+ls
+rm *~
+rm *exe
+ls
+cat Makefile 
+fg
+ls -l
+fg
+make clean
+ls -lR
+fg
+make clean
+ls -lR
+fg
+gcc -o ex25 ex25.c
+fg
+gcc -o ex25 ex25.c
+fg
+gcc -o ex25 ex25.c
+./ex25
+fg
+./ex25
+fg
+git status
+fg
+git status
+git add .
+git status
+git help branch
+git commit
+git status
+git branch check
+git status
+git diff master check
+git help diff
+git status
+git checkout check
+git status
+emacs ex25.c
+git diff check master
+git status
+git commit -am "checking"
+git help log
+git diff
+git log -graph
+git log --graph
+git branch -l
+git help diff
+git diff master..check
+git checkout master
+git branch -D check
+fg
+emacs ex25.c
+git status
+git commit -am "changed 0 to \0 in switch case"
+gcc -o ex25 ex25.c
+./ex25
+./ex25
+fg
+git log -graph
+git log --graph
+ssh438
+jobs
+fg
+emacs
+ping google.com
+ping google.com
+pip search pygame
+pip install Directicus
+pip install Directicus --allow-external
+pip install bezel
+pip install Pygame
+ls
+cd
+ls
+pwd
+cd $c343
+ls
+cd project2
+ls
+python
+pip install matplotlib
+pip install dateutil
+pip install pygext
+pip install sge-pygame
+pip install matplotlib
+python
+pip install sge-pygame-py2
+python
+pip list
+pip help
+pip uninstall sge-pygame
+pip uninstall sge-pygame-py2
+apt-get install pygame
+cd
+ls
+curl http://www.pygame.org/ftp/pygame-1.9.1release.tar.gz

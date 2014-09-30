@@ -1,0 +1,18 @@
+;; Object c++/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c++/"
+  :tables (list 
+   (semanticdb-table "reverseWords.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "reverseWords.cpp"
+    :pointmax 251
+    :fsize 250
+    :lastmodtime '(21528 40286 845198 600000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!probs!leetcode!c++!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

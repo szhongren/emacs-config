@@ -1,0 +1,47 @@
+;; Object HW2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "HW2/"
+  :tables (list 
+    (semanticdb-table "hw2.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [342 360])
+            ("string.h" include (:system-flag t) nil [361 380])
+            ("reverse_in_place" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [472 480]))                  
+                :type "void")
+                nil [450 481])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [492 501])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [502 515]))                  
+                :type "int")
+                nil [483 867])
+            ("reverse_in_place" function
+               (:arguments 
+                  ( ("s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [891 899]))                  
+                :type "void")
+                nil [869 1047]))          
+    :file "hw2.c"
+    :pointmax 960
+    :fsize 1047
+    :lastmodtime '(21541 31796 590455 200000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!c335-submissions!HW2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -1,0 +1,52 @@
+;; Object netinet/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "netinet/"
+  :tables (list 
+   (semanticdb-table "in.h"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_NETINET_IN_H" variable (:constant-flag t) nil [272 285])
+            ("cygwin/in.h" include (:system-flag t) nil [287 309])
+            ("bindresvport" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [376 380])
+                    ("" variable
+                       (:pointer 1
+                        :type ("sockaddr_in" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [381 402]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [351 403])
+            ("bindresvport_sa" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [432 436])
+                    ("" variable
+                       (:pointer 1
+                        :type ("sockaddr" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [437 455]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [404 456]))          
+    :file "in.h"
+    :pointmax 515
+    :fsize 514
+    :lastmodtime '(21483 54109 0 0)
+    :unmatched-syntax '((punctuation 478 . 479))
+    :lexical-table 
+        '(("_NETINET_IN_H")
+          )
+
+    )
+   )
+  :file "!usr!include!netinet!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

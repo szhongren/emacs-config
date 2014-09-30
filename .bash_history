@@ -1,500 +1,500 @@
-cat myprintf.x
-cat myprintf.c
-git mv myprint.c myprintf.c
-git status
-cat myprintf.c
-gcc -g -o test test.c myprintf.c 
-./test
-cat mywc.c
-cat report.txt
-git status
-git add test.c
-git commit -m "cleanup"
-rm testfile
-gut status
-git status
-git push
-git config --global push.default simple
-cd
-git status
-git add .emacs.d/
-git status
-git commit -m "added updates"
-git add .gitconfig
-git commit
-git push
-cd $learn
-ls
-cd python/
-ls
-emacs ex16.py
-python ex16.py test.txt
-fg
-python ex16.py test.txt
-fg
-python ex16.py test.txt
-cat test.txt
-fg
+fox project3.pdf &
 jobs
-echo "This is a test file." > test.txt
-cat test.txt 
-python ex17.py test.txt new_file.txt
-cat new_file.txt 
-cat test.txt 
-fg
-python ex18.py 
-fg
-python ex19.py 
-fg
-python ex20.py
-python ex20.py test.txt 
-cat test.txt 
-fg
-python ex20.py test.txt 
-fg
-python ex21.py
 ls
-fg
-fg
-python ex24.py 
-fg
-python ex25.py
-python
-gh
-fg
-python ex26.py
-emacs
-fg
-fg
-python ex28
-python ex29.py 
-fg
-python ex30.py 
-fg
-python ex31.py
-python ex31.py
-fg
-python ex32.py 
-fg
-python ex33.py 
-cd ..
-git status
-fg
-git status
-rm python/*~
+python driver.py
+cd $git
 ls
+python bst.py 
+anaconda bst.py
+cd $p438
+cd assignment3
+////////////////////////////////////////////////////////////////////////////////
+/* Name: Zhongren Shao, shaoz
+/  File name: server.c
+/  Part of: assignment3
+/  Date created: 9/24/2014
+/  Date last modified: 9/25/2014
+/  inputs: port(int) = 5000
+*/
+////////////////////////////////////////////////////////////////////////////////
+./client
+./client localhost 5000
+./client localhost 5000
+cd $git
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+python bst.py
+cd C343Fall2014/
+ls
+cd project3
+ls
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
+python bst_testing.py
 git status
-git add python
+git add .
 git status
-git commit -m "up till 33"
+git rm --cached .idea
+git rm -r --cached .idea
+git commit -am "mostly done"
 git push
-git status
-cd ..
+cd $p438
 ls
-git
+cd assignment3
+ls
+fg
+emacs client.c server.c
+make server
+fg
+fg
+make server
+fg
+make server
+fg
+make server
+make client
+./server
+fg
 git status
-cd P438/
-git status
-cd $c335
-git status
-cd $c343
-git status
-emacs
-cd
-git status
-git add .emacs.d/
-git status
-git commit -a -m "changed indent"
-git status
+git add utils.c 
+git commit -am "cleanup and commented"
 git push
-cd $learn/c++
-ls
-ls
-cd ..
-ls
-cd c
-ls
-cd ex19
-ls
-emacs ex19.h object.c object.h
-ls
-emacs ex19.h ex19.c
-fg
-make ex19
-fg
-make ex19
-fg
-fg
-fg
-make ex19
-./ex19
-jobs
+make server
+make client
+./server
 fg
 ls
 rm *~
-ls
-cd ..
-ls
-make ex20
-./ex20
-./ ex20 test
-./ex20 test
-cc -Wall -g -DNDEBUG ex20.c -o ex20
-./ex20 test
-cc -Wall -g -DNDEBUG ex20.c -o ex20
-cd $learn/c
-./ex20 test
-emacs ex20.c
-fg
-cc -Wall -g -DNDEBUG ex20.c -o ex20
-./ex20 test
-fg
-git status
-emacs ex20.c
-cc -Wall -g -DNDEBUG ex20.c -o ex20
-./ex20 test
-fg
-fg
-la
-ls
-rm emacs-nox.exe.stackdump 
-rm #*
-rm \#ex20.c# 
-em \#ex22.h# 
-rm \#ex22.h# 
-ls
-ls -l
-rm *~
-ls -l
-rm *.exe
-ls
-ls -l
-ls -lh
-cat db.dat 
-emacs ex22.h
-fg
-cc -Wall -g -DNDEBUG -c -o ex22.o ex22.c
-cc -Wall -g -DNDEBUG ex22_main.c ex22.o -o ex22_main
-./ex22_main
-cat ex22_main.c
-cat ex22.c
-whereis nasm
-cd ..
-ls
-mkdir asm
-ls
-cd asm
-emacs notes
-fg
-fg
-nasm -f elf helloworld.asm 
-ls
-ld -m elf_i386 -s -o hello helloworld.o
-ld -m elf_i386pe -s -o hello helloworld.o
-ld -m i386pe -s -o hello helloworld.o
-./hello
-ld -m i386pep -s -o hello helloworld.o
-nasm help
-nasm -help
-ld -help
-ld -m elf32-i386 -s -o hello helloworld.o
-ld -s -o hello helloworld.o
-nasm -f helloworld.asm
-nasm -hf helloworld.asm
-nasm -f win32 helloworld.asm
-ld -h
-ld --help
-ls
-ld -s -o hello helloworld.o
-ld -m win32 -s -o hello helloworld.o
-ld -m i386pe -s -o hello helloworld.o
-./hello
-cd ../c
-ls
-fg
-cd
-grep limits.h
-ls
-ls -a
-cd ..
-cd ..
-ls
-ls -al lib
-ls -al usr
-ls -al usr/include
-cat usr/include/limits.h
-cd $learn/c
-ls
-ls -l
-cat Makefile 
-make clearn
-make clean
-ls
-ls =l
-ls -l
-mkdir ex22
-mv ex22* ex22
-mv ex22.* ex22
-mv ex22.c ex22
-mv help
-mv --help
-mv ex22.c ex22/
-mv ex22.h ex22
-cd
-cd $learn/c
-ls
-ls -h
-ls -hl
-cd ex22
-ls
-cd ..
-emacs ex23.c
-cd ex22
-fg
-opera
-cd $c343
-ls
-cd hw1/
-ls
-cat hw
-cd $learn/c
-ls
-fg
-emacs
-cd
-ls
-ls -al
-emacs
-ls -al
-cd cd .emacs.d/
-ls
-cd .emacs.d/
-ls
-cd ..
-git status
-emacs .gitignore
-fg
-cat texput.log 
-rm texput.log 
-ls
-ls -al
-fg
-git add
-git add .
-git status
-emacs .gitignore
-git status
-git add .
-git status
-git rm --cached */
-git rm --cached -r */
-git status
-explorer.exe .
-git status
-git add .
-git status
-cat .gitignore
-git rm --cached -r test/
-git status
-git status
-git commit
-git push
-git status
-cat .gitignore
-notepad .gitignore
-git status
-git commit -a -m 
-git commit -a -m "this"
-git push
-mail
-apropos mail
-git status
-git log
-gitk
-gitk
-git remote
-git help remote
-man git
-git remote -v
-git status
 cd $c335
 ls
-cd HW1/
+cd Lab4
+ls
+emacs report.txt 
+fg
+git status
+git add .
+git status
+git commit -am "lab 4 report"
+git push
+cd ..
+ls
+mkcd HW2
+ls
+emacs main.c
+emacs hw2.c
+make hw2
+fg
+make hw2
+make hw2
+jobs
+./hw2
+./hw2 test this is prob good
+fg
+fg
+fg
+git status
+git add hw2.c 
+git status
+cd ..
+ls
+rm \#template.c# 
+ls
+git status
+git commit -am "added hw2.c"
+git push
+cd $c343
+cd project3
+ls
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+cd $git
+ls
+cd CS-FALL-2014/
+ls
+cd lab4
+ls
+emacs main.c
+cd $c343
+ls
+cd project3
+ls
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python bst_testing.py 
+python driver.py 
+python bst_testing.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+git status
+git commit -am "added bst delete_node"
+git push
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+python avl.py 
+git commit -am "added avl"
+git push
+cd $git
+ls
+cd probs/
+ls
+cd codechef/
+ls
+cd cpp
+ls
+mkcd snape
+ls
+emacs main.c
+make main
+mv main.c main.cpp
+ls
+mv main.c main.cpp
+make main
+fg
+make main
+ls
+rm main.c
+ls
+make main
+rm main.exe 
+make main
+fg
+ls
+emacs main.cpp 
+make main
+./main < test
+fg
+cd ..
+mkcd cielrcpt
+fg
+make main
+fg
+make main
+./main < test
+fg
+ls
 ls
 git status
 cd ..
-emacs .gitignore
+mkcd double
+touch main.cpp
+touch test
+fg
+make main
+fg
+make main
+fg
+make main
+./main < test
+cat test
+fg
+make main
+./main < test
+fg
 git status
-git commit -a -m "added gitignore"
-cd HW1/
+cd ../..
 ls
-fg
-gcc -o remover remover.c
-./remover
-fg
-gcc -o remover remover.c
-./remover
-gcc -o remover remover.c
-fg
-gcc -o remover remover.c
-./remover
-fg
-gcc -o remover remover.c
-./remover
-./ remover fdsa
-./remover dfsa
-./remover dfsa dafgfa dafadf
-./remover dfsa df
-fg
 git status
-git commit -am "cleanup"
-git push
-git remote show origin
-cd
+cd ..
+ls
 git status
 git add .
 git status
-git commit -m "semantic update"
-git push
-git tag
-git graph
-git -graph
-git help
-git help -a
-git diff -graph
-git help diff
-git diff-tree
-git shell
-git log --graph
-g
-fg
-cat .bashrc
-ssh438
-ssh438
-ssh438
-cd $learn
-explorer.exe .
-git status
-git add .
-cat .gitignore
-fg
-fg
-git status
+emacs .gitignore
+git trm --cached .
 git rm --cached .
-git rm --cached -r ~.
-git rm --cached -r .
+git rm -r --cached .
 git add .
 git status
-git commit
+git commit -m "start codechef"
 git push
-git remote show
-git branch -v
-fg
+cd $learn
 ls
-cd c
+cd html/
 ls
-gcc -o ex24 ex24.c
-fg
-fg
-gcc -o ex24 ex24.c
-./ex24
-fg
-ssh438
-fg
+mkcd odin
 ls
-rm *~
-rm *exe
+uptime
+grep
+nasm
+cd cygdrive
+cd ../../..
+cd ..
 ls
-cat Makefile 
-fg
-ls -l
-fg
-make clean
-ls -lR
-fg
-make clean
-ls -lR
-fg
-gcc -o ex25 ex25.c
-fg
-gcc -o ex25 ex25.c
-fg
-gcc -o ex25 ex25.c
-./ex25
-fg
-./ex25
-fg
-git status
-fg
-git status
-git add .
-git status
-git help branch
-git commit
-git status
-git branch check
-git status
-git diff master check
-git help diff
-git status
-git checkout check
-git status
-emacs ex25.c
-git diff check master
-git status
-git commit -am "checking"
-git help log
-git diff
-git log -graph
-git log --graph
-git branch -l
-git help diff
-git diff master..check
-git checkout master
-git branch -D check
-fg
-emacs ex25.c
-git status
-git commit -am "changed 0 to \0 in switch case"
-gcc -o ex25 ex25.c
-./ex25
-./ex25
-fg
-git log -graph
-git log --graph
-ssh438
-jobs
-fg
-emacs
-ping google.com
-ping google.com
-pip search pygame
-pip install Directicus
-pip install Directicus --allow-external
-pip install bezel
-pip install Pygame
+cd Downloads/
 ls
-cd
+chmod 777 -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
+rm -fr \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
+rm --help
+chown
+chown --help
+chown -R -f Zhongren \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
+rm -fr \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
+rm -fr \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+chown -R -f Zhongren \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
 ls
-pwd
-cd $c343
+rm -fr \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -r \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+chmod 777 \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
 ls
-cd project2
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+rm -f -R \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/Part3/
+
+ch \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
 ls
-python
-pip install matplotlib
-pip install dateutil
-pip install pygext
-pip install sge-pygame
-pip install matplotlib
-python
-pip install sge-pygame-py2
-python
-pip list
-pip help
-pip uninstall sge-pygame
-pip uninstall sge-pygame-py2
-apt-get install pygame
-cd
+cd \[The\ Fappening\]\ Videos\ and\ Pictures\ MEGAPACK\ Part\ 1-3\ \(2014\)/
 ls
-curl http://www.pygame.org/ftp/pygame-1.9.1release.tar.gz
+cd Part3/
+ls
+cd Jessica\ Brown\ Findlay/
+ls
+chown Zhongren IMG_2290.MOV 
+chown -R Zhongren IMG_2290.MOV 
+chown -f
+chown -f Zhongren IMG_2290.MOV 
+chmod --help
+chmod -v 777 IMG_2290.MOV 
+rm --help
+rm IMG_2290.MOV 
+ls
+ls
+rm -f IMG_2290.MOV 
+ls
+ls
+cd ..
+ls
+ls
+ls -al
+cd ..
+cd ..
+ruby
+ruby -v
+curl -L get.rvm.io | bash -s stable
+curl -L get.rvm.io | bash -s stable
+rvm -v
+curl -L get.rvm.io | bash -s stable
+rvm -v
+rvm -v
+automake
+gem
+gem -list
+gem list
+ruby -v
+explorer.exe 
+git
+git --version
+heroku
+heroku version
+ruby
+gem
+gem
+gem
+ruby
+heroku version
+gem install heroku
+heroku version

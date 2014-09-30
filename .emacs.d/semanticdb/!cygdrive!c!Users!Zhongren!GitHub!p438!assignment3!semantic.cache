@@ -1,0 +1,119 @@
+;; Object assignment3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "assignment3/"
+  :tables (list 
+   (semanticdb-table "server.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [360 378])
+            ("stdlib.h" include (:system-flag t) nil [379 398])
+            ("string.h" include (:system-flag t) nil [399 418])
+            ("unistd.h" include (:system-flag t) nil [419 438])
+            ("sys/types.h" include (:system-flag t) nil [439 461])
+            ("sys/socket.h" include (:system-flag t) nil [463 486])
+            ("netinet/in.h" include (:system-flag t) nil [487 510])
+            ("netdb.h" include (:system-flag t) nil [511 529])
+            ("utils.c" include nil nil [530 548])
+            ("MSG_MAX" variable (:constant-flag t) nil [557 564])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [714 723])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [724 737]))                  
+                :type "int")
+                nil [705 2721]))          
+    :file "server.c"
+    :pointmax 2722
+    :fsize 2721
+    :lastmodtime '(21540 58113 153469 500000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("MSG_MAX" . ((number "256" 565 . 568)))
+          )
+
+    )
+   (semanticdb-table "client.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [524 542])
+            ("stdlib.h" include (:system-flag t) nil [543 562])
+            ("string.h" include (:system-flag t) nil [563 582])
+            ("unistd.h" include (:system-flag t) nil [583 602])
+            ("sys/types.h" include (:system-flag t) nil [603 625])
+            ("sys/socket.h" include (:system-flag t) nil [626 649])
+            ("netinet/in.h" include (:system-flag t) nil [650 673])
+            ("netdb.h" include (:system-flag t) nil [674 692])
+            ("utils.c" include nil nil [693 711])
+            ("MSG_MAX" variable (:constant-flag t) nil [720 727])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [852 861])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [862 875]))                  
+                :type "int")
+                nil [843 2283]))          
+    :file "client.c"
+    :pointmax 2284
+    :fsize 2283
+    :lastmodtime '(21540 58072 506324 400000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("MSG_MAX" . ((number "256" 728 . 731)))
+          )
+
+    )
+   (semanticdb-table "utils.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [319 337])
+            ("stdlib.h" include (:system-flag t) nil [338 357])
+            ("string.h" include (:system-flag t) nil [358 377])
+            ("unistd.h" include (:system-flag t) nil [378 397])
+            ("sys/types.h" include (:system-flag t) nil [398 420])
+            ("sys/socket.h" include (:system-flag t) nil [421 444])
+            ("netinet/in.h" include (:system-flag t) nil [445 468])
+            ("netdb.h" include (:system-flag t) nil [469 487])
+            ("SER" variable (:constant-flag t) nil [496 499])
+            ("CLI" variable (:constant-flag t) nil [510 513])
+            ("error" function
+               (:arguments 
+                  ( ("msg" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [602 612]))                  
+                :type "void")
+                nil [585 642])
+            ("setHints" function
+               (:arguments 
+                  ( ("hints" variable
+                       (:pointer 1
+                        :type ("addrinfo" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [740 763])
+                    ("type" variable (:type "int") (reparse-symbol arg-sub-list) [764 773]))                  
+                :type "void")
+                nil [726 1040]))          
+    :file "utils.c"
+    :pointmax 1540
+    :fsize 1042
+    :lastmodtime '(21540 58034 957717 300000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("CLI" . ((number "0" 514 . 515)))
+          ("SER" . ((number "1" 500 . 501)))
+          )
+
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!P438!assignment3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

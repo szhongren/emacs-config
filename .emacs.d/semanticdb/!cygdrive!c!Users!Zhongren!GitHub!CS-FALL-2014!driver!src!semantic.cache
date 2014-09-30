@@ -1,0 +1,51 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "f3d_led.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stm32f30x.h" include (:system-flag t) nil [165 187])
+            ("stm32f30x_gpio.h" include (:system-flag t) nil [188 215])
+            ("stm32f30x_rcc.h" include (:system-flag t) nil [216 242])
+            ("f3d_led.h" include (:system-flag t) nil [243 263])
+            ("pins" variable
+               (:dereference 1
+                :type "int")
+                nil [329 573])
+            ("f3d_led_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [652 657]))                  
+                :type "void")
+                nil [634 1885])
+            ("f3d_led_on" function
+               (:arguments 
+                  ( ("led" variable (:type "int") (reparse-symbol arg-sub-list) [1967 1975]))                  
+                :type "void")
+                nil [1951 2016])
+            ("f3d_led_off" function
+               (:arguments 
+                  ( ("led" variable (:type "int") (reparse-symbol arg-sub-list) [2098 2106]))                  
+                :type "void")
+                nil [2081 2146])
+            ("f3d_led_all_on" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2191 2196]))                  
+                :type "void")
+                nil [2171 2283])
+            ("f3d_led_all_off" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2330 2335]))                  
+                :type "void")
+                nil [2309 2421]))          
+    :file "f3d_led.c"
+    :pointmax 2447
+    :fsize 2446
+    :lastmodtime '(21532 31136 464900 200000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!CS-FALL-2014!driver!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

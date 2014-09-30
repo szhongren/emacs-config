@@ -9,7 +9,7 @@
     :pointmax 187
     :fsize 195
     :lastmodtime '(21513 63507 122646 200000)
-    :unmatched-syntax '((punctuation 242 . 243) (punctuation 241 . 242) (symbol 239 . 241))
+    :unmatched-syntax 'nil
     )
    )
   :file "!cygdrive!c!Users!Zhongren!GitHub!c335-submissions!semantic.cache"

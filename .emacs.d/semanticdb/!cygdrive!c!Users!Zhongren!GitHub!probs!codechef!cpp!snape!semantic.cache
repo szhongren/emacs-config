@@ -1,0 +1,30 @@
+;; Object snape/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "snape/"
+  :tables (list 
+    (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [48 57])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [58 71]))                  
+                :type "int")
+                nil [39 252]))          
+    :file "main.cpp"
+    :pointmax 251
+    :fsize 252
+    :lastmodtime '(21544 41975 208521 200000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!cygdrive!c!Users!Zhongren!GitHub!probs!codechef!cpp!snape!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

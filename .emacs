@@ -19,6 +19,7 @@
   (add-to-list 'ac-sources 'ac-source-c-headers)
   (add-to-list 'ac-sources 'ac-source-c-header-symbols t)
   (add-to-list 'achead:include-directories '"~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include")
+  (add-to-list 'achead:include-directories '"~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include/c++")
   (add-to-list 'achead:include-directories '"~/../../usr/include")
 )
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)

@@ -56,8 +56,8 @@
                 ("screen_size" variable nil (reparse-symbol function_parameters) [65 76]))              ) nil [26 88]))          
     :file "flood.py"
     :pointmax 88
-    :fsize 87
-    :lastmodtime '(21508 7377 0 0)
+    :fsize 1936
+    :lastmodtime '(21522 34323 375362 800000)
     :unmatched-syntax 'nil
     )
    (semanticdb-table "floodit.py"
@@ -141,8 +141,8 @@ This mode is used to generate tests to be used as test cases to check student co
             ("if" code nil nil [9817 12220]))          
     :file "floodit.py"
     :pointmax 12386
-    :fsize 12739
-    :lastmodtime '(21508 7288 0 0)
+    :fsize 13169
+    :lastmodtime '(21522 8243 566644 900000)
     :unmatched-syntax '((RETURN 431 . 437) (IF 459 . 461) (ELSE 473 . 477))
     )
    (semanticdb-table "plotter.py"
@@ -165,6 +165,48 @@ This mode is used to generate tests to be used as test cases to check student co
     :pointmax 618
     :fsize 617
     :lastmodtime '(21520 39405 164976 600000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "flood1.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("utilities" include nil nil [1 24])
+            ("colorChk" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [158 171])
+                ("tile" variable nil (reparse-symbol function_parameters) [173 177])
+                ("color" variable nil (reparse-symbol function_parameters) [179 184]))              ) nil [145 227])
+            ("flood" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [238 251])
+                ("flooded_list" variable nil (reparse-symbol function_parameters) [253 265])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [267 278]))              ) nil [228 1206]))          
+    :file "flood1.py"
+    :pointmax 1222
+    :fsize 1205
+    :lastmodtime '(21522 35395 481069 900000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "flood2.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("utilities" include nil nil [1 24])
+            ("colorChk" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [158 171])
+                ("tile" variable nil (reparse-symbol function_parameters) [173 177])
+                ("color" variable nil (reparse-symbol function_parameters) [179 184]))              ) nil [145 227])
+            ("flood_help" function (:arguments 
+              ( ("f_set" variable nil (reparse-symbol function_parameters) [462 467])
+                ("f_set2" variable nil (reparse-symbol function_parameters) [469 475])
+                ("color_of_tile" variable nil (reparse-symbol function_parameters) [477 490])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [492 503])
+                ("color" variable nil (reparse-symbol function_parameters) [505 510]))              ) nil [447 1341])
+            ("flood" function (:arguments 
+              ( ("color_of_tile" variable nil (reparse-symbol function_parameters) [1352 1365])
+                ("flooded_list" variable nil (reparse-symbol function_parameters) [1367 1379])
+                ("screen_size" variable nil (reparse-symbol function_parameters) [1381 1392]))              ) nil [1342 1997]))          
+    :file "flood2.py"
+    :pointmax 1937
+    :fsize 1996
+    :lastmodtime '(21522 36511 930482 0)
     :unmatched-syntax 'nil
     )
    )

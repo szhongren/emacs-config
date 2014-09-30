@@ -209,3 +209,5 @@ function mkcd() {
 }
 
 alias ssh438='ssh shaoz@silo.soic.indiana.edu'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

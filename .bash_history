@@ -1,95 +1,3 @@
-fox project3.pdf &
-jobs
-ls
-python driver.py
-cd $git
-ls
-python bst.py 
-anaconda bst.py
-cd $p438
-cd assignment3
-////////////////////////////////////////////////////////////////////////////////
-/* Name: Zhongren Shao, shaoz
-/  File name: server.c
-/  Part of: assignment3
-/  Date created: 9/24/2014
-/  Date last modified: 9/25/2014
-/  inputs: port(int) = 5000
-*/
-////////////////////////////////////////////////////////////////////////////////
-./client
-./client localhost 5000
-./client localhost 5000
-cd $git
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
-python bst.py
 python bst.py
 python bst.py
 python bst.py
@@ -498,3 +406,95 @@ ruby
 heroku version
 gem install heroku
 heroku version
+heroku version
+gem
+gem list
+explorer.exe .
+tree.com
+git status
+git add .emacs
+git status
+ls -as bin/
+ls -al bin/
+launchy
+git status
+git add .emacs.d/
+ls
+git status
+git commit -am "added more stuff"
+git push
+git status
+explorer.exe 
+heroku version
+heroku keys:add
+git --config
+git --help
+git config
+git config --get-all 
+git config --l
+git config --list
+git config --global user.email "shao.zhongren"
+git config -l
+git config --global user.email "shao.zhongren@gmail.com"
+cd $p438
+git pull
+touch test
+git add test
+git status
+git commit -m "test push"
+git push
+ssh-keygen -C shao.zhongren@gmail.com -t rsa
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub 
+ssh-add ~/.ssh/id_rsa
+ssh-agent.exe -s
+ssh-add ~/.ssh/id_rsa
+ssh -T git@github.com
+ssh-agent -s
+ssh-add
+eval 'ssh-agent -s'
+ssh-add 
+ssh-add ~/.ssh/id_rsa
+ssh-agent ssh-add ~/.ssh/id_rsa
+heroku keys:add
+cat ~/.ssh/id_rsa.pub 
+rails -v
+cd git
+cd $git
+ls
+mkcd railsbridge
+rails new test_app
+cd test_app/
+ls
+rails server
+rails generate scaffold drink name:string temperature:integer
+rake db:migrate
+rails server
+git init
+git add -A
+git commit -m "initial commit"
+heroku create
+git remote show
+emacs Gemfile
+fg
+cd $git
+ls
+cd railsbridge/
+ls
+cd test_app/
+ls
+cat Gemfile
+emacs Gemfile
+cat Gemfile
+notepad Gemfile
+notepad++ Gemfile
+bundle install --without production
+fg
+cd $p438
+ls
+emacs test
+cd $p438
+emacs test
+ls
+emacs test
+emacs

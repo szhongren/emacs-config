@@ -7,7 +7,7 @@
 
 ;; auto-complete
 (require 'auto-complete)
-(add-to-list 'load-path "~/.emacs.d")    ; This may not be appeared if you have already added.
+(add-to-list 'load-path "~/.emacs.d/elpa")    ; This may not be appeared if you have already added.
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20140824.1658/dict")
 (require 'auto-complete-config)
 (ac-config-default)
@@ -90,18 +90,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-(defun current-time-microseconds ()
-  (let* ((nowtime (current-time))
-         (now-ms (nth 2 nowtime)))
-    (concat (format-time-string "[%Y-%m-%dT%T" nowtime) (format ".%d] " now-ms))))
-
-(defadvice message (before test-symbol activate)
-  (if (not (string-equal (ad-get-arg 0) "%s%s"))
-      (let ((deactivate-mark nil))
-        (save-excursion
-          (set-buffer "*Messages*")
-          (goto-char (point-max))
-          (if (not (bolp))
-              (newline))
-          (insert (current-time-microseconds))))))

@@ -196,3 +196,19 @@
 # }
 # 
 # alias cd=cd_func
+
+
+#disables case-sensitivity
+shopt -s nocaseglob
+
+#setup fox as shortcut for foxit reader
+alias fox='Foxit\ Reader.exe'
+
+#setup for quick mkdir and cd
+function mkcd() {
+    [ -n "$1" ] && mkdir -p "$@" && cd "$1";
+}
+
+alias ssh438='ssh shaoz@silo.soic.indiana.edu'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

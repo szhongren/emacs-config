@@ -35,3 +35,4 @@ if [ -n "${BASH_VERSION}" ]; then
     source "${HOME}/.bashrc"
   fi
 fi
+export DISPLAY=:0.0

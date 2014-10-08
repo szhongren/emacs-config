@@ -34,6 +34,10 @@
 (global-set-key (kbd "C-c h") 'helm-mini)
 (helm-mode 1)
 
+;; ac-helm
+(global-set-key (kbd "C-;") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-;") 'ac-complete-with-helm)
+
 ;; function-args
 (add-to-list 'load-path "~/.emacs.d/elpa/function-args-20140622.808")
 (require 'function-args)
@@ -90,3 +94,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; ac-helm init
+(require 'ac-helm)
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)

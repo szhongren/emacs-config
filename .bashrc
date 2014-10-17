@@ -198,11 +198,8 @@
 # alias cd=cd_func
 
 
-#disables case-sensitivity
-shopt -s nocaseglob
-
 #setup fox as shortcut for foxit reader
-alias fox='Foxit\ Reader.exe'
+alias fox='FoxitReader.exe'
 
 #setup for quick mkdir and cd
 function mkcd() {

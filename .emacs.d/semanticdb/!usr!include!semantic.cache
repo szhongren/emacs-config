@@ -1,0 +1,39 @@
+;; Object include/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "include/"
+  :tables
+  (list
+    (semanticdb-table "features.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_FEATURES_H" variable (:constant-flag t) nil [286 297])
+            ("sys/cdefs.h" include (:system-flag t) nil [299 321])
+            ("sys/features.h" include (:system-flag t) nil [322 347]))          
+      :file "features.h"
+      :pointmax 1104
+      :fsize 1103
+      :lastmodtime '(21483 54109 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_FEATURES_H")
+          )
+)
+    (semanticdb-table "stdio.h"
+      :file "stdio.h"
+      :fsize 28569
+      :lastmodtime '(21483 54108 0 0))
+    (semanticdb-table "stdint.h"
+      :file "stdint.h"
+      :fsize 6886
+      :lastmodtime '(21483 54109 0 0))
+    (semanticdb-table "math.h"
+      :file "math.h"
+      :fsize 19634
+      :lastmodtime '(21483 54108 0 0))
+    (semanticdb-table "limits.h"
+      :file "limits.h"
+      :fsize 16590
+      :lastmodtime '(21483 54109 0 0)))
+  :file "!usr!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

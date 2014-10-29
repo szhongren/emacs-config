@@ -1,101 +1,47 @@
-(modify-frame-parameters nil '((wait-for-wm . nil)))
 (require 'package)
-(require 'json)
 (add-to-list 'package-archives
   '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
-;; auto-complete
+;; theme
+(require 'monokai-theme)
+
+;; auto-complete!
 (require 'auto-complete)
-(add-to-list 'load-path "~/.emacs.d/elpa")    ; This may not be appeared if you have already added.
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/elpa/auto-complete-20140824.1658/dict")
 (require 'auto-complete-config)
 (ac-config-default)
 
-;; auto-complete for c headers
+;; helm
+(require 'helm-config)
+(require 'helm-themes)
+(helm-mode 1)
+(global-set-key (kbd "C-c h") 'helm-mini)
+
+;; ac-helm interface
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
+
+;; auto-complete c-headers
 (defun my:ac-c-header-init ()
-  (require 'auto-complete-c-headers)
+  ;; needs both for some weird reason, the second one only breaks the auto-complete completely
   (require 'ac-c-headers)
+  (require 'auto-complete-c-headers)
   (add-to-list 'ac-sources 'ac-source-c-headers)
   (add-to-list 'ac-sources 'ac-source-c-header-symbols t)
-  (add-to-list 'achead:include-directories '"~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include")
-  (add-to-list 'achead:include-directories '"~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include/c++")
-  (add-to-list 'achead:include-directories '"~/../../usr/include")
-)
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/include/c++")
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/include/c++/x86_64-pc-cygwin")
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/include/c++/backward")
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/include")
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/include-fixed")
+  (add-to-list 'achead:include-directories '"/usr/include")
+  (add-to-list 'achead:include-directories '"/usr/lib/gcc/x86_64-pc-cygwin/4.8.3/../../../../lib/../include/w32api")
+  )
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
-;; iedit
-(define-key global-map (kbd "C-c ;") 'iedit-mode)
-
-;; helm
-(add-to-list 'load-path "~/.emacs.d/elpa/helm-20140902.1137")
-(require 'helm-config)
-(global-set-key (kbd "C-c h") 'helm-mini)
-(helm-mode 1)
-
-;; ac-helm
-(global-set-key (kbd "C-;") 'ac-complete-with-helm)
-(define-key ac-complete-mode-map (kbd "C-;") 'ac-complete-with-helm)
-
-;; function-args
-(add-to-list 'load-path "~/.emacs.d/elpa/function-args-20140622.808")
-(require 'function-args)
-(fa-config-default)
-(add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
-(set-default 'semantic-case-fold t)
-(semantic-add-system-include "~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include" 'c++-mode)
-(semantic-add-system-include "~/../../usr/include" 'c++-mode)
-(semantic-add-system-include "~/../../lib/gcc/x86_64-pc-cygwin/4.8.3/include" 'c-mode)
-(semantic-add-system-include "~/../../usr/include" 'c-mode)
-
-;; semantic
+;; semantic mode
 (semantic-mode 1)
-(defun my:semantic-ac-source ()
+(defun my:ac-semantic-init ()
   (add-to-list 'ac-sources 'ac-source-semantic)
-)
-(add-hook 'c++-mode-hook 'my:semantic-ac-source)
-(add-hook 'c-mode-hook 'my:semantic-ac-source)
-(add-hook 'c-mode-common-hook 'my:semantic-ac-source)
-(global-semantic-idle-scheduler-mode 1)
-
-;; ede
-(global-ede-mode 1)
-
-;; elpy
-(elpy-enable)
-
-;; latex and math
-(require 'ac-math)
-(add-to-list 'ac-modes 'latex-mode)   ; make auto-complete aware of `latex-mode`
-(defun ac-latex-mode-setup ()         ; add ac-sources to default ac-sources
-  (setq ac-sources
-     (append '(ac-source-math-unicode ac-source-math-latex ac-source-latex-commands)
-               ac-sources)))
-(add-hook 'latex-mode-hook 'ac-latex-mode-setup)
-
-;; theme
-(require 'noctilux-theme)
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ac-auto-show-menu 0.6)
- '(ac-auto-start 1)
- '(column-number-mode 1)
- '(elpy-rpc-backend nil)
- '(show-paren-mode t)
- '(standard-indent 3))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-
-;; ac-helm init
-(require 'ac-helm)
-(global-set-key (kbd "C-:") 'ac-complete-with-helm)
-(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
+  )
+(add-hook 'c-mode-common-hook 'my:ac-semantic-init)

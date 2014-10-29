@@ -1,0 +1,51 @@
+;; Object project4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "project4/"
+  :tables
+  (list
+    (semanticdb-table "seq_align.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("random" include nil nil [25 49])
+            ("time" include nil nil [25 49])
+            ("sys" include nil nil [25 49])
+            ("pygame" include nil nil [50 63])
+            ("e_aplh" variable nil nil [65 102])
+            ("dna_alph" variable nil nil [103 120])
+            ("gen_random_string" function (:arguments 
+              ( ("alphabet" variable nil (reparse-symbol function_parameters) [221 229])
+                ("length" variable nil (reparse-symbol function_parameters) [231 237]))              ) nil [199 374])
+            ("SPACE_CHAR" variable nil nil [413 429])
+            ("SPACE_PENALTY" code nil nil [430 448])
+            ("s" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [479 480])
+                ("y" variable nil (reparse-symbol function_parameters) [482 483]))              ) nil [473 620])
+            ("TILE_SIZE" variable nil nil [621 635])
+            ("tile_color" variable nil nil [636 664])
+            ("highlight_color" variable nil nil [665 698])
+            ("init_board" function (:arguments 
+              ( ("m" variable nil (reparse-symbol function_parameters) [715 716])
+                ("n" variable nil (reparse-symbol function_parameters) [718 719]))              ) nil [700 951])
+            ("create_tile" function (:arguments 
+              ( ("font" variable nil (reparse-symbol function_parameters) [968 972])
+                ("text" variable nil (reparse-symbol function_parameters) [974 978])
+                ("color" variable nil (reparse-symbol function_parameters) [980 985]))              ) nil [952 1162])
+            ("render_board" function (:arguments 
+              ( ("board" variable nil (reparse-symbol function_parameters) [1180 1185])
+                ("font" variable nil (reparse-symbol function_parameters) [1187 1191])
+                ("s1" variable nil (reparse-symbol function_parameters) [1193 1195])
+                ("s2" variable nil (reparse-symbol function_parameters) [1197 1199])
+                ("F" variable nil (reparse-symbol function_parameters) [1201 1202]))              ) nil [1163 1846])
+            ("seq_align" function (:arguments 
+              ( ("s1" variable nil (reparse-symbol function_parameters) [1861 1863])
+                ("s2" variable nil (reparse-symbol function_parameters) [1865 1867])
+                ("enable_graphics" variable nil (reparse-symbol function_parameters) [1869 1884]))              ) nil [1847 4321])
+            ("if" code nil nil [4323 5524]))          
+      :file "seq_align.py"
+      :pointmax 5525
+      :fsize 5524
+      :lastmodtime '(21569 60928 572321 100000)
+      :unmatched-syntax nil))
+  :file "!cygdrive!c!Users!Zhongren!GitHub!C343Fall2014!project4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

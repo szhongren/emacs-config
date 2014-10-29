@@ -45,3 +45,15 @@
   (add-to-list 'ac-sources 'ac-source-semantic)
   )
 (add-hook 'c-mode-common-hook 'my:ac-semantic-init)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ac-auto-show-menu 0.6)
+ '(ac-auto-start 1)
+ '(column-number-mode 1)
+ '(show-paren-mode t)
+ '(standard-indent 3)
+ )

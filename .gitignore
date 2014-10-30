@@ -1,0 +1,11 @@
+.ssh/
+.gem/
+.heroku/
+.emacs.d/elpa/*theme*
+.emacs.d/semanticdb/
+.bash_history
+.cache/
+.emacs.d/auto-save-list/
+.rvm/
+.subversion/
+.zlogin

@@ -18,17 +18,20 @@
 (global-set-key (kbd "C-c h") 'helm-mini)
 
 ;; ac-helm interface
-(global-set-key (kbd "C-:") 'ac-complete-with-helm)
-(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
+(global-set-key (kbd "C-;") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-;") 'ac-complete-with-helm)
 
-;; helm-ls-git
+;; helm-ls-git, lists files in curr git dir
 (require 'helm-ls-git)
 (global-set-key (kbd "C-c C-g") 'helm-ls-git-ls)
 
-;; git-timemachine
+;; helm-dash, offline api references
+(global-set-key (kbd "C-c d") 'helm-dash)
+
+;; git-timemachine, goes though commits for a certan file
 (global-set-key (kbd "C-c C-t") 'git-timemachine)
 
-;; function-args
+;; function-args, displays signature for a function when called
 (fa-config-default)
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 (global-set-key (kbd "C-c f") 'fa-show)
@@ -51,7 +54,7 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
-;; ac-anaconda
+;; ac-anaconda, anaconda source for ac
 (add-to-list 'ac-sources 'ac-sources-anaconda)
 (add-hook 'python-mode-hook 'ac-anaconda-setup)
 (add-hook 'python-mode-hook 'anaconda-mode)
@@ -68,7 +71,7 @@
 (add-hook 'python-mode-hook 'jedi:setup)
 (setq jedi:complete-on-dot t)   
 
-;; helm-google
+;; helm-google, searches google in helm
 (global-set-key (kbd "C-h C-g") 'helm-google)
 
 ;; smooth scrolling

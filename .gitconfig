@@ -3,3 +3,5 @@
 	name = Zhongren Shao
 [push]
 	default = matching
+[core]
+	editor = emacs

@@ -1,4 +1,12 @@
-((("column-enforce-mode" .
+((("lsh" .
+   [0 0 1])
+  ("socket" .
+   [0 0 0 0 0 1])
+  ("time" .
+   [2 0 0 0])
+  ("from" .
+   [2 0 0 0])
+  ("column-enforce-mode" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2])
   ("isSpace" .
    [0 0 0 1 0 0 0])
@@ -353,7 +361,7 @@
   ("global-semantic-idle-scheduler-mode" .
    [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("import" .
-   [0 0 0 0 0 1])
+   [0 0 3 0 0 1])
   ("def" .
    [1 0 0])
   ("highlight-current-line-on" .
@@ -383,4 +391,6 @@
   ("fa-show" .
    [0 0 0 0 0 0 1])
   ("global-column-enforce-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("pygame" .
+   [0 1 0 0 0 0])))

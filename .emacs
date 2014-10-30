@@ -51,6 +51,11 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
+;; ac-anaconda
+(add-to-list 'ac-sources 'ac-sources-anaconda)
+(add-hook 'python-mode-hook 'ac-anaconda-setup)
+(add-hook 'python-mode-hook 'anaconda-mode)
+
 ;; semantic mode
 (semantic-mode 1)
 (defun my:ac-semantic-init ()
@@ -81,6 +86,9 @@
 
 ;; highlight parens
 (require 'highlight-parentheses)
+
+;; color identified vars
+(add-hook 'after-init-hook 'global-color-identifiers-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

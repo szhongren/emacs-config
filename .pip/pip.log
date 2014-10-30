@@ -1,52 +1,27 @@
-Downloading/unpacking jedi
-  Getting page https://pypi.python.org/simple/jedi/
-  URLs to search for versions for jedi:
-  * https://pypi.python.org/simple/jedi/
-  Analyzing links from page https://pypi.python.org/simple/jedi/
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b3.tar.gz#md5=bcf0e066a317faf2e8b79fe4659ec54e (from https://pypi.python.org/simple/jedi/), version: 0.5b3
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b4.tar.gz#md5=1ce28453b1f11df973c00b5f5f9b3da2 (from https://pypi.python.org/simple/jedi/), version: 0.5b4
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b5.tar.gz#md5=eaf183537b1fd2eb122b85c526dea729 (from https://pypi.python.org/simple/jedi/), version: 0.5b5
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.6.0.tar.gz#md5=2e2d953bf8213e56478e5df886ea7c02 (from https://pypi.python.org/simple/jedi/), version: 0.6.0
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.7.0.tar.gz#md5=fb4a452b6baa09ce7ced445e58625d25 (from https://pypi.python.org/simple/jedi/), version: 0.7.0
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.8.0-final0.tar.gz#md5=25ba4ee6160c2de751bd00c7a4f32bff (from https://pypi.python.org/simple/jedi/), version: 0.8.0-final0
-    Found link https://pypi.python.org/packages/source/j/jedi/jedi-0.8.1-final0.tar.gz#md5=e4db996421a640d50f559587e805412b (from https://pypi.python.org/simple/jedi/), version: 0.8.1-final0
-    Skipping link http://github.com/davidhalter/jedi (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link http://github.com/davidhalter/jedi-vim (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link http://semver.org/ (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link http://travis-ci.org/davidhalter/jedi (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link http://www.pip-installer.org/ (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link http://www.youtube.com/watch?v=5BDO3pyavOY (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://coveralls.io/r/davidhalter/jedi (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://github.com/Kozea/wdb (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://github.com/davidhalter/jedi (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://github.com/davidhalter/jedi-vim (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://github.com/svaiter/SublimeJEDI (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://github.com/tkf/emacs-jedi (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://jedi.readthedocs.org/ (from https://pypi.python.org/simple/jedi/); not a file
-    Skipping link https://jedi.readthedocs.org/en/latest/docs/features.html (from https://pypi.python.org/simple/jedi/); unknown archive format: .html
-    Skipping link https://jedi.readthedocs.org/en/latest/docs/history.html (from https://pypi.python.org/simple/jedi/); unknown archive format: .html
-    Skipping link https://jedi.readthedocs.org/en/latest/docs/installation.html (from https://pypi.python.org/simple/jedi/); unknown archive format: .html
-    Skipping link https://jedi.readthedocs.org/en/latest/docs/plugin-api.html (from https://pypi.python.org/simple/jedi/); unknown archive format: .html
-    Skipping link https://jedi.readthedocs.org/en/latest/docs/recipes.html (from https://pypi.python.org/simple/jedi/); unknown archive format: .html
-    Skipping link https://travis-ci.org/davidhalter/jedi/ (from https://pypi.python.org/simple/jedi/); not a file
-  Ignoring link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b3.tar.gz#md5=bcf0e066a317faf2e8b79fe4659ec54e (from https://pypi.python.org/simple/jedi/), version 0.5b3 is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b4.tar.gz#md5=1ce28453b1f11df973c00b5f5f9b3da2 (from https://pypi.python.org/simple/jedi/), version 0.5b4 is a pre-release (use --pre to allow).
-  Ignoring link https://pypi.python.org/packages/source/j/jedi/jedi-0.5b5.tar.gz#md5=eaf183537b1fd2eb122b85c526dea729 (from https://pypi.python.org/simple/jedi/), version 0.5b5 is a pre-release (use --pre to allow).
-  Using version 0.8.1-final0 (newest of versions: 0.8.1-final0, 0.8.0-final0, 0.7.0, 0.6.0)
-  Downloading from URL https://pypi.python.org/packages/source/j/jedi/jedi-0.8.1-final0.tar.gz#md5=e4db996421a640d50f559587e805412b (from https://pypi.python.org/simple/jedi/)
+------------------------------------------------------------
+/usr/bin/pip run on Thu Oct 30 11:28:43 2014
+Downloading/unpacking python-epc
+  Getting page https://pypi.python.org/simple/python-epc/
+  Could not fetch URL https://pypi.python.org/simple/python-epc/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/python-epc/ when looking for download links for python-epc
+  Getting page https://pypi.python.org/simple/
+  URLs to search for versions for python-epc:
+  * https://pypi.python.org/simple/python-epc/
+  Getting page https://pypi.python.org/simple/python-epc/
+  Could not fetch URL https://pypi.python.org/simple/python-epc/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/python-epc/ when looking for download links for python-epc
+  Could not find any downloads that satisfy the requirement python-epc
 Cleaning up...
   Removing temporary dir /tmp/pip_build_szhongren...
-setuptools must be installed to install from a source distribution
+No distributions at all found for python-epc
 Exception information:
 Traceback (most recent call last):
   File "/usr/lib/python2.7/site-packages/pip/basecommand.py", line 122, in main
     status = self.run(options, args)
   File "/usr/lib/python2.7/site-packages/pip/commands/install.py", line 278, in run
     requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
-  File "/usr/lib/python2.7/site-packages/pip/req.py", line 1229, in prepare_files
-    req_to_install.run_egg_info()
-  File "/usr/lib/python2.7/site-packages/pip/req.py", line 292, in run_egg_info
-    logger.notify('Running setup.py (path:%s) egg_info for package %s' % (self.setup_py, self.name))
-  File "/usr/lib/python2.7/site-packages/pip/req.py", line 269, in setup_py
-    "setuptools must be installed to install from a source "
-InstallationError: setuptools must be installed to install from a source distribution
+  File "/usr/lib/python2.7/site-packages/pip/req.py", line 1177, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/site-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for python-epc

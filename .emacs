@@ -4,7 +4,7 @@
 (package-initialize)
 
 ;; theme
-(require 'darkburn-theme)
+(require 'cyberpunk-theme)
 
 ;; auto-complete!
 (require 'auto-complete)
@@ -23,7 +23,7 @@
 
 ;; helm-ls-git, lists files in curr git dir
 (require 'helm-ls-git)
-(global-set-key (kbd "C-c C-g") 'helm-ls-git-ls)
+(global-set-key (kbd "C-c g") 'helm-ls-git-ls)
 
 ;; helm dash, offline api documentation
 (require 'helm-dash)
@@ -37,7 +37,7 @@
 (add-to-list 'helm-dash-common-docsets '"Javascript")
 
 ;; git-timemachine, goes though commits for a certan file
-(global-set-key (kbd "C-c C-t") 'git-timemachine)
+(global-set-key (kbd "C-c t") 'git-timemachine)
 
 ;; function-args, displays signature for a function when called
 (fa-config-default)
@@ -106,14 +106,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ac-auto-show-menu 0.6)
+ '(ac-auto-show-menu 0.4)
  '(ac-auto-start 1)
+ '(ac-modes
+   (quote
+    (emacs-lisp-mode lisp-mode lisp-interaction-mode slime-repl-mode c-mode cc-mode c++-mode go-mode java-mode malabar-mode clojure-mode clojurescript-mode scala-mode scheme-mode ocaml-mode tuareg-mode coq-mode haskell-mode agda-mode agda2-mode perl-mode cperl-mode python-mode ruby-mode lua-mode tcl-mode ecmascript-mode javascript-mode js-mode js2-mode php-mode css-mode less-css-mode makefile-mode sh-mode fortran-mode f90-mode ada-mode xml-mode sgml-mode ts-mode sclang-mode verilog-mode qml-mode text-mode fundamental-mode)))
  '(browse-url-browser-function (quote browse-url-text-emacs))
  '(browse-url-text-browser "lynx")
  '(column-number-mode 1)
  '(global-highlight-parentheses-mode t)
  '(highlight-current-line-globally t nil (highlight-current-line))
- '(hl-paren-background-colors (quote ("brightwhite")))
+ '(hl-paren-background-colors (quote ("brightblack")))
  '(paradox-github-token t)
  '(show-paren-mode t)
  '(standard-indent 3))

@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-dash" "helm-dash.el" (21585 56198 904344
-;;;;;;  800000))
+;;;### (autoloads nil "helm-dash" "helm-dash.el" (21585 63555 476955
+;;;;;;  600000))
 ;;; Generated autoloads from helm-dash.el
 
 (autoload 'helm-dash-install-docset "helm-dash" "\

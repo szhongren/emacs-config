@@ -25,8 +25,16 @@
 (require 'helm-ls-git)
 (global-set-key (kbd "C-c C-g") 'helm-ls-git-ls)
 
-;; helm-dash, offline api references
+;; helm dash, offline api documentation
+(require 'helm-dash)
 (global-set-key (kbd "C-c d") 'helm-dash)
+(add-to-list 'helm-dash-common-docsets '"C")
+(add-to-list 'helm-dash-common-docsets '"C++")
+(add-to-list 'helm-dash-common-docsets '"Python 2")
+(add-to-list 'helm-dash-common-docsets '"Bash")
+(add-to-list 'helm-dash-common-docsets '"HTML")
+(add-to-list 'helm-dash-common-docsets '"CSS")
+(add-to-list 'helm-dash-common-docsets '"Javascript")
 
 ;; git-timemachine, goes though commits for a certan file
 (global-set-key (kbd "C-c C-t") 'git-timemachine)
@@ -100,6 +108,8 @@
  ;; If there is more than one, they won't work right.
  '(ac-auto-show-menu 0.6)
  '(ac-auto-start 1)
+ '(browse-url-browser-function (quote browse-url-text-emacs))
+ '(browse-url-text-browser "lynx")
  '(column-number-mode 1)
  '(global-highlight-parentheses-mode t)
  '(highlight-current-line-globally t nil (highlight-current-line))

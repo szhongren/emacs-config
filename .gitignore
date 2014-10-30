@@ -9,3 +9,5 @@
 .rvm/
 .subversion/
 .zlogin
+.cask
+.docsets

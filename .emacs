@@ -11,6 +11,9 @@
 (require 'auto-complete-config)
 (ac-config-default)
 
+;; iedit mode start
+(require 'iedit)
+
 ;; helm
 (require 'helm-config)
 (require 'helm-themes)
@@ -18,12 +21,12 @@
 (global-set-key (kbd "C-c h") 'helm-mini)
 
 ;; ac-helm interface
-(global-set-key (kbd "C-;") 'ac-complete-with-helm)
-(define-key ac-complete-mode-map (kbd "C-;") 'ac-complete-with-helm)
+(global-set-key (kbd "C-c a") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-c a") 'ac-complete-with-helm)
 
 ;; helm-ls-git, lists files in curr git dir
 (require 'helm-ls-git)
-(global-set-key (kbd "C-c g") 'helm-ls-git-ls)
+(global-set-key (kbd "C-c l") 'helm-ls-git-ls)
 
 ;; helm dash, offline api documentation
 (require 'helm-dash)
@@ -69,10 +72,7 @@
 
 ;; semantic mode
 (semantic-mode 1)
-(defun my:ac-semantic-init ()
-  (add-to-list 'ac-sources 'ac-source-semantic)
-  )
-(add-hook 'c-mode-common-hook 'my:ac-semantic-init)
+(add-to-list 'ac-sources 'ac-source-semantic)
 (global-semantic-idle-scheduler-mode 1)
 
 ;; jedi config
@@ -80,14 +80,13 @@
 (setq jedi:complete-on-dot t)   
 
 ;; helm-google, searches google in helm
-(global-set-key (kbd "C-h C-g") 'helm-google)
+(global-set-key (kbd "C-c g") 'helm-google)
 
 ;; smooth scrolling
 (require 'smooth-scrolling)
 
 ;; column-enforce-mode
 (require 'column-enforce-mode)
-(global-column-enforce-mode t)
 
 ;; display theme
 (global-display-theme-mode 1)
@@ -114,6 +113,7 @@
  '(browse-url-browser-function (quote browse-url-text-emacs))
  '(browse-url-text-browser "lynx")
  '(column-number-mode 1)
+ '(global-column-enforce-mode t)
  '(global-highlight-parentheses-mode t)
  '(highlight-current-line-globally t nil (highlight-current-line))
  '(hl-paren-background-colors (quote ("brightblack")))

@@ -11,3 +11,9 @@
 .zlogin
 .cask
 .docsets
+.bash_profile
+.bashrc
+.gitconfig
+.minttyrc
+.netrc
+.profile

@@ -1,7 +1,0 @@
-[user]
-	email = shao.zhongren@gmail.com
-	name = Zhongren Shao
-[push]
-	default = matching
-[core]
-	editor = emacs
